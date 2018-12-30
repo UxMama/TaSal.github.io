@@ -1,0 +1,21 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Lora;
+}
+.topnav a {
+  float: right;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a.active {
+  color: black;
+}
+
+.biography {
+  width: 300px;
+}
