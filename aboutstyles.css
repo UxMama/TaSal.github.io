@@ -3,6 +3,7 @@ body {
   margin: 0;
   font-family: Lora;
 }
+
 .topnav a {
   float: right;
   color: #000000;
@@ -18,5 +19,20 @@ body {
 
 .biography {
   width: 700px;
-  text-align: center;
+  text-align: justify;
+  float: right;
+  margin-right: 150px;
+  position: relative;
+  text-indent: 50px;
+  width: 600px;
+  font-family:"open sans";
+  line-height: 1.5em;
+}
+
+.img {
+  border: 1px solid #ddd;
+ border-radius: 4px;
+ padding: 5px;
+ width: 150px;
+ bottom: 50px;
 }
