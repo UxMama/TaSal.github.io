@@ -1,0 +1,249 @@
+/*Styling for Project Page*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+}
+
+body, h1, h2, h3, p, a, button, span, div {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex; /* this will make the .navbar child become flex layout*/
+  padding: 25px; /* Add padding: 25px for each side*/
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .topnav a {
+  color: rgb(119, 119, 119);
+  margin-left: 40px;
+}
+
+.projectimage img {
+  width: 100%;
+}
+
+.summary-text {
+  padding: 40px;
+}
+
+.summary-title {
+  text-align: center;
+  font-size: 38px;
+}
+
+.underline {
+  height: 1px;
+  width: 300px;
+  background-color: black;
+  margin: 30px auto;
+}
+
+.summary-paragraph {
+  width: 50%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.summary-paragraph p {
+  margin-bottom: 20px;
+  line-height: 22px;
+  letter-spacing: 1.1px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.problem-solution {
+  padding: 40px;
+  background-color: rgb(27, 45, 55);
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.problem-solution .problem {
+  width: 50%;
+  max-width: 400px;
+  margin-right: 50px;
+}
+
+.problem-solution h1 {
+  text-align: center;
+  font-size: 34px;
+}
+
+.problem-solution p {
+  line-height: 22px;
+  font-size: 14px;
+}
+
+.problem-solution .underline {
+  background-color: white;
+  width: 200px;
+  margin: 15px auto 20px auto;
+}
+
+.problem-solution .solution {
+  width: 50%;
+  max-width: 400px;
+  margin-left: 50px;
+}
+
+.skills-work {
+  padding: 40px;
+  color: rgb(27, 45, 55);
+  display: flex;
+  justify-content: center;
+}
+
+.skills-work div {
+  width: 170px;
+  padding: 25px;
+  background-color: rgb(250, 250, 250);
+  margin: 0 5px;
+}
+
+.skills-work h1 {
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.skills-work p {
+  margin-bottom: 10px;
+  font-size: 14px;
+  letter-spacing: 1.1px;
+  font-weight: 600;
+}
+
+.invision-btn a {
+  text-align: center;
+  margin: 0 auto 15px auto;
+  display: block;
+  width: 180px;
+  padding: 12px;
+  background-color: rgb(219, 166, 59);
+  color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-weight: 700;
+}
+
+.discovery-research {
+  padding: 80px;
+}
+
+.research-survey {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.research-survey .research {
+  width: 40%;
+}
+
+.research-survey .survey {
+  width: 60%;
+}
+
+.discovery-research .title {
+  text-align: center;
+  color: rgb(27, 45, 55);
+  font-size: 38px;
+  margin-bottom: 40px;
+}
+
+.research {
+  padding: 0 40px;
+}
+
+.research h1 {
+  font-size: 32px;
+  font-style: italic;
+  color: rgb(27, 45, 55);
+  margin-bottom: 15px;
+}
+
+.research p {
+  text-indent: 60px;
+  line-height: 24px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.research p .color {
+  color: rgb(151, 151, 106);
+  font-weight: 700;
+}
+
+.survey {
+  padding: 0 40px;
+}
+
+.percent-n-text {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.percent-n-text .percent {
+  color: rgb(27, 45, 55);
+  font-size: 24px;
+  width: 85px;
+  flex-shrink: 0;
+}
+
+.percent-n-text .text {
+  line-height: 22px;
+}
+
+.personas {
+  padding: 80px;
+}
+
+.persona-title {
+  font-size: 32px;
+  font-style: italic;
+  color: rgb(27, 45, 55);
+  margin-bottom: 15px;
+}
+
+.persona-paragraph {
+  text-indent: 60px;
+  line-height: 24px;
+  font-weight: 600;
+  font-size: 14px;
+  width: 600px;
+  margin-bottom: 60px;
+}
+
+.persona-container {
+  display: flex;
+}
+
+.persona {
+  flex-shrink: 0;
+  width: 230px;
+  margin-right: 100px;
+}
+
+.persona .persona-image {
+  margin-bottom: 15px;
+}
+
+.persona-testimonial {
+  line-height: 22px;
+  color: black;
+  margin-bottom: 15px;
+}
+
+.persona-name {
+  margin-bottom: 5px;
+}

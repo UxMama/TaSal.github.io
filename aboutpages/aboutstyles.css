@@ -1,0 +1,79 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, a, button, p, div, span {
+  font-family: "Lora", sans-serif;
+  text-decoration: none;
+}
+.navbar {
+  display: flex; /* this will make the .navbar child become flex layout*/
+  padding: 25px; /* Add padding: 25px for each side*/
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .topnav a {
+  color: rgb(119, 119, 119);
+  margin-left: 40px;
+}
+
+.me{}
+
+  /* Style inputs with type="text", select elements and textareas */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px; /* Some padding */
+    border: 1px solid #DBA63B; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical;/* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #DBA63B;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #C4C4C4;
+  }
+
+  /* Add a background color and some padding around the form */
+  .container {
+    width: 25%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+
+.biography {
+  width: 700px;
+  text-align: justify;
+  float: right;
+  margin-right: 150px;
+  position: relative;
+  text-indent: 50px;
+  width: 600px;
+  font-family:"open sans";
+  line-height: 1.5em;
+}
+
+
+.img {
+  border: 1px solid #ddd;
+ border-radius: 4px;
+ padding: 5px;
+ width: 150px;
+ bottom: 50px;
+}
