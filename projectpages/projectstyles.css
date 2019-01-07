@@ -247,3 +247,535 @@ body, h1, h2, h3, p, a, button, span, div {
 .persona-name {
   margin-bottom: 5px;
 }
+
+.comp-analysis {
+  padding: 80px;
+}
+
+.comp-analysis .title {
+  font-size: 32px;
+  font-style: italic;
+  color: rgb(27, 45, 55);
+  margin-bottom: 15px;
+}
+
+.comp-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.comp-analysis .comp .comp-paragraph {
+  text-indent: 60px;
+  line-height: 24px;
+  font-weight: 600;
+  font-size: 14px;
+  width: 600px;
+  margin-bottom: 30px;
+}
+
+.comp-analysis .comp .compresults {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 14px;
+  width: 600px;
+  color: rgb(151, 151, 106);
+  line-height: 24px;
+}
+
+.comp-analysis .companpics {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  align-items: center;
+}
+
+.comp-analysis .companpics img {
+  margin-bottom: 10px;
+}
+
+.userflows {
+  padding: 80px;
+}
+
+.userflows h1 {
+  font-size: 32px;
+  font-style: italic;
+  color: rgb(27, 45, 55);
+  margin-bottom: 15px;
+}
+
+.userflows p {
+  text-indent: 60px;
+  line-height: 24px;
+  font-weight: 600;
+  font-size: 14px;
+  width: 600px;
+  margin-bottom: 60px;
+}
+
+.userflows-img {
+  display: flex;
+  align-items: center;
+}
+
+.userflows-img img:first-child {
+  margin-right: 10%;
+}
+
+.wireframes-and-usability-tests {
+  padding: 80px 0;
+}
+
+.wireframes-and-usability-tests > h1 {
+  text-align: center;
+  color: rgb(27, 45, 55);
+  font-size: 38px;
+  margin-bottom: 50px;
+}
+
+.sketching-container {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.sketching-container .sketching {
+  width: 60%;
+  max-width: 600px;
+  padding: 0 0 0 80px;
+  margin-right: 50px;
+}
+
+.sketching-container .sketching > h1 {
+  font-size: 32px;
+  font-style: italic;
+  color: rgb(27, 45, 55);
+  margin-bottom: 15px;
+}
+
+.sketching-container .sketching > p {
+  text-indent: 60px;
+  line-height: 24px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.sketch-right img {
+  height: 100%;
+  margin-right: 5px;
+}
+
+.sketch-bottom {
+  margin-bottom: 40px;
+  padding: 0 80px;
+}
+
+.sketch-bottom img {
+  margin-right: 8%;
+}
+
+.wireframes {
+  background-color: rgb(27, 45, 55);
+  padding: 40px;
+  text-align: center;
+  display: flex;
+}
+
+.wireframes img {
+  width: 50%;
+}
+
+.wireframes img:first-child {
+  margin-right: 40px;
+}
+
+.mockups {
+  padding: 80px;
+  display: flex;
+}
+
+.mockups-container {
+  max-width: 600px;
+  margin-right: 30px;
+}
+
+.mockups-container .text h1 {
+  font-size: 32px;
+  font-style: italic;
+  color: rgb(27, 45, 55);
+  margin-bottom: 15px;
+}
+
+.mockups-container p {
+  line-height: 24px;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+
+.mockups-container .image {
+  display: flex;
+  justify-content: center;
+}
+
+.mockups-container .image img:first-child {
+  margin-right: 20px;
+}
+
+.image-right {
+  flex-shrink: 0;
+}
+
+.image-right img:first-child {
+  margin-right: 30px
+}
+
+.usability {
+  padding: 80px;
+}
+
+.usability > h1 {
+  font-size: 32px;
+  font-style: italic;
+  color: rgb(27, 45, 55);
+  margin-bottom: 15px;
+}
+
+.usability > p {
+  text-indent: 60px;
+  line-height: 24px;
+  font-weight: 400;
+  font-size: 14px;
+  width: 600px;
+  margin-bottom: 20px;
+}
+
+.usability .container-result {
+  display: flex;
+}
+
+.usability .title {
+  margin-bottom: 20px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.tasks-container {
+  width: 40%;
+  padding: 50px;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.task .numbers {
+  font-size: 56px;
+  color: rgb(224, 224, 210);
+  font-weight: 700;
+  margin-right: 20px;
+  width: 60px;
+}
+
+.task .step {
+  font-weight: 700;
+  color: rgb(151, 151, 106);
+  line-height: 26px;
+}
+
+.test-results {
+  width: 60%;
+  padding: 50px;
+}
+
+.test-results p {
+  color: rgb(151, 151, 106);
+  font-weight: bold;
+  line-height: 24px;
+  margin-bottom: 15px;
+  line-height: 26px;
+}
+
+
+.visual-design > h1 {
+  text-align: center;
+  color: rgb(27, 45, 55);
+  font-size: 38px;
+  margin-bottom: 50px;
+}
+
+.branding > h1 {
+  font-size: 32px;
+  font-style: italic;
+  color: rgb(27, 45, 55);
+  margin-bottom: 15px;
+}
+
+.branding {
+  padding: 80px;
+}
+
+.branding p {
+  text-indent: 60px;
+  line-height: 24px;
+  font-weight: 400;
+  font-size: 14px;
+  width: 600px;
+  margin-bottom: 20px;
+}
+
+.branding .brand {
+  color: rgb(151, 151, 106);
+  font-weight: 700;
+}
+
+.branding-testimonials {
+  background-image:url('../images/testimonialpic.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.branding-testimonials p {
+  font-size: 22px;
+  font-style: italic;
+  color: rgb(219, 166, 59);
+  width: 700px;
+  padding: 60px 100px;
+}
+
+.branding-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.logo {
+  padding: 80px;
+  display: flex;
+}
+
+.logo-container {
+  width: 600px;
+  flex-shrink: 0;
+  align-items: flex-end;
+}
+
+.logo .logo-title {
+  font-size: 32px;
+  font-style: italic;
+  color: rgb(27, 45, 55);
+  margin-bottom: 15px;
+}
+
+.logo .logo-paragraph {
+  text-indent: 60px;
+  line-height: 24px;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.colorandtype {
+  padding: 80px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.colorandtype-container {
+  width: 600px;
+  flex-shrink: 0;
+  margin-right: 40px;
+}
+
+.colorandtype .colorandtype-title {
+  font-size: 32px;
+  font-style: italic;
+  color: rgb(27, 45, 55);
+  margin-bottom: 15px;
+}
+
+.colorandtype .colorandtype-paragraph {
+  text-indent: 60px;
+  line-height: 24px;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.preference-test {
+  display: flex;
+  align-items: flex-start;
+  padding: 80px;
+}
+
+.left-preference {
+  width: 600px;
+  flex-shrink: 0;
+  margin-right: 30px;
+}
+
+.left-preference h1 {
+  font-size: 32px;
+  font-style: italic;
+  color: rgb(27, 45, 55);
+  margin-bottom: 15px;
+}
+
+.left-preference > p {
+  text-indent: 60px;
+  line-height: 24px;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.menu-container {
+  display: flex;
+}
+
+.menu img {
+  height: 235px;
+}
+
+.menu p {
+  color: rgb(27, 45, 55);
+  text-align: center;
+  font-weight: 700;
+}
+
+.right-preference {
+  display: flex;
+}
+
+.landingpage-test1 {
+  margin-right: 20px;
+}
+
+.right-preference p {
+  color: rgb(27, 45, 55);
+  text-align: left;
+  font-weight: 700;
+  width: 200px;
+  line-height: 22px;
+}
+
+.finalproduct {
+  padding: 80px;
+}
+
+.finalproduct > h1 {
+  font-size: 32px;
+  font-style: italic;
+  color: rgb(27, 45, 55);
+  margin-bottom: 15px;
+}
+
+.finalproduct > p {
+  text-indent: 60px;
+  line-height: 24px;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 20px;
+  width: 600px;
+}
+
+.finalproduct .reborn {
+  font-weight: 700;
+  color: rgb(151, 151, 106);
+}
+
+.finalproduct img {
+  display: block;
+  margin: 0 auto;
+}
+
+.try-prototype {
+  display: block;
+  text-align: center;
+  margin-top: 50px;
+  text-decoration: underline;
+}
+
+.key-features {
+  width: 500px;
+  margin: 30px auto 0 auto;
+}
+
+.key-features > h1 {
+  color: rgb(27, 45, 55);
+  text-align: center;
+  font-weight: 700;
+  font-size: 26px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.key-features > p {
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+
+.mockups-image {
+  padding: 0 80px;
+}
+
+.mockups-image h1 {
+  color: rgb(27, 45, 55);
+  text-align: center;
+  text-align: center;
+  font-weight: 700;
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+
+.mockups-image img {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.learned {
+  padding: 80px
+}
+
+.learned h1 {
+  font-size: 32px;
+  font-style: italic;
+  color: rgb(27, 45, 55);
+  margin-bottom: 15px;
+}
+
+.learned p {
+  text-indent: 60px;
+  line-height: 24px;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+footer {
+  padding: 25px;
+  border-top: 1px solid rgb(213, 213, 213);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer p {
+  color: rgb(119, 119, 119);
+  font-size: 13px;
+}
+
+footer .social {
+  text-align: center;
+}
+
+footer .social a {
+  display: inline-block;
+  color: #1B2D37;
+  font-size: 32px;
+  padding: 0 15px;
+}
