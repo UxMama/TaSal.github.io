@@ -1,79 +1,314 @@
+
+/* this will make sure the html window will become 100% wide */
+html, body {
+  width: 100%;
+  font-family: 'Open sans',sans-serif;
+}
+
+/* this will make sure every element using the same font */
+/* text-decoration: none means it's remove effect like underline for the text */
+h1, h2, h3, a, button, p, div, span {
+  text-decoration: none;
+
+}
+
 body {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
 }
 
-h1, h2, h3, a, button, p, div, span {
-  font-family: "Lora", sans-serif;
-  text-decoration: none;
-}
 .navbar {
   display: flex; /* this will make the .navbar child become flex layout*/
   padding: 25px; /* Add padding: 25px for each side*/
   align-items: center;
   justify-content: space-between;
+  background-color: #151516;
 }
 
 .navbar .topnav a {
-  color: rgb(119, 119, 119);
+  color: #DBDBDF;
   margin-left: 40px;
+  font-size: 1em; /*(hmm, too big? don't want it too small?)*/
+  font-family: 'Open sans',sans-serif;
+  font-weight: bold;
 }
 
-.me{}
+.wrap {
+  padding: 100px 15%;
+}
 
-  /* Style inputs with type="text", select elements and textareas */
-  input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px; /* Some padding */
-    border: 1px solid #DBA63B; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical;/* Allow the user to vertically resize the textarea (not horizontally) */
-  }
+.intro-container {
+  display: flex;
+  margin-bottom: 50px;
+}
 
-  /* Style the submit button with a specific background color etc */
-  input[type=submit] {
-    background-color: #DBA63B;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
+.img-self {
+  margin-right: 30px;
+}
 
-  /* When moving the mouse over the submit button, add a darker green color */
-  input[type=submit]:hover {
-    background-color: #C4C4C4;
-  }
+.biography h2 {
+  color: #D8B161;
+  font-size: 50px;
+  text-align: left;
+  font-weight: bold;
+}
 
-  /* Add a background color and some padding around the form */
-  .container {
-    width: 25%;
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 10px;
-  }
+.intro {
+  line-height: 1.6em;
+}
 
-.biography {
-  width: 700px;
-  text-align: justify;
-  float: right;
-  margin-right: 150px;
-  position: relative;
-  text-indent: 50px;
-  width: 600px;
+.intro h1 {
+  color: #D8B161;
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.intro p {
+  font-size: 18px;
+  line-height: 35px;
+}
+
+.super {
+  display: block;
+  margin: 35px auto 0 auto;
+}
+
+.bio {
   font-family:"open sans";
-  line-height: 1.5em;
+  line-height: 1.6em;
+}
+
+.bio h1{
+  color: #D8B161;
+  font-size: 26px;
+  font-weight: bolder;
+  text-align: left;
+  margin: 70px 0 30px 0;
+}
+
+.highlight {
+  color: #D8B161;
+  font-weight: bold;
 }
 
 
 .img {
-  border: 1px solid #ddd;
+border: 1px solid #ddd;
  border-radius: 4px;
  padding: 5px;
  width: 150px;
  bottom: 50px;
+}
+
+.container img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.biography p {
+  margin-bottom: 25px;
+  line-height: 35px;
+}
+
+
+.content-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 80px;
+}
+
+.photo-slideshow {
+  width: 500px;
+  height: 500px;
+}
+
+.mySlides {
+  display: none;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.connect a {
+  color: #D8B161;
+  font-weight: bold;
+}
+
+
+footer {
+  padding: 25px;
+  border-top: 1px solid rgb(213, 213, 213);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:  #151516;
+}
+
+footer h1 {
+  color: #DBDBDF;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family: "Open Sans", sans-serif;
+}
+
+footer p {
+  color: #DBDBDF;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+}
+
+footer .social {
+  text-align: center;
+}
+
+footer .social a {
+  display: inline-block;
+  color: #DBDBDF;
+  font-size: 13px;
+  padding: 0 15px;
+  font-family: "Open Sans", sans-serif;
+}
+
+footer .social a:first-child {
+  padding-left: 0;
+}
+.hamburger-btn {
+  width: 40px;
+  height: 30px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hamburger-btn .line {
+  display: block;
+  width: 25px;
+  height: 2px;
+  background-color: white;
+  margin: 3px 0;
+}
+
+.nav-mobile {
+  display: none;
+}
+
+/*hide on desktop show on mobile*/
+.mobile-only {
+  display: none !important;
+}
+
+/*mobile phone width resolution is less than 1024px.*/
+@media screen and (max-width: 1024px) {
+  .mobile-only {
+    display: block !important;
+  }
+
+  .desktop-only {
+    display: none;
+  }
+
+  .nav-mobile {
+    display: none;
+    height: calc(100vh - 102px);
+  }
+
+  .nav-mobile a {
+    display: block;
+    text-align: center;
+    padding: 30px 0;
+    color: rgb(119, 119, 119);
+    font-size: 18px;
+  }
+
+  .hamburger-btn {
+    display: flex !important;
+    cursor: pointer;
+  }
+
+  .content-container {
+    padding: 20px;
+    flex-direction: column;
+  }
+
+  .container {
+    width: 100%;
+    margin: 0 0 20px 0;
+    padding: 0;
+  }
+
+  .wrap {
+    padding: 20px;
+  }
+
+  .img-self {
+    margin: 0 0 20px 0;
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .intro-container {
+    flex-direction: column;
+  }
+
+  .photo-slideshow {
+    width: 100%;
+    height: auto;
+    padding-top: 100%;
+    position: relative;
+  }
+
+  .mySlides {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .biography {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  footer {
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footer-name {
+    margin-bottom: 20px;
+  }
+
+  footer .social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer .social a:first-child {
+    padding: 5px 15px;
+  }
+
+  footer .social a {
+    padding: 5px 15px;
+  }
+}
+
+@media screen and (min-width: 550px) and (max-width: 1024px) {
+  .photo-slideshow {
+    width: 500px;
+    height: 500px;
+    padding: 0;
+    position: relative;
+  }
 }
