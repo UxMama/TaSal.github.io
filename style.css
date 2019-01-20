@@ -13,6 +13,7 @@ html, body {
   width: 100%;
 }
 
+
 /* this will make sure every element using the same font */
 /* text-decoration: none means it's remove effect like underline for the text */
 h1, h2, h3, a, button, p, div, span {
@@ -124,7 +125,7 @@ body {
 }
 
 .rw-sentence span{
-	color: #DBDBDF;
+	color: #FFFFFF;
 	white-space: nowrap;
 	font-weight: normal;
   line-height: 40px;
@@ -220,7 +221,7 @@ body {
   font-size: 25px;
   margin-bottom: 6vh;
   font-family: 'Open sans',sans-serif;
-  color: #DBDBDF;
+  color: #FFFFFF;
 }
 
 
@@ -231,7 +232,7 @@ body {
 .featured-project h1 {
   width: 100%;
   font-size: 28px;
-  color: #25272B;
+  color: #FFFFFF;
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
 }
@@ -239,7 +240,7 @@ body {
 
 .featured-project h2 {
   font-size: 20px;
-  color: #25272B;
+  color: #FFFFFF;
   margin-left: 6px;
   font-family: 'Open Sans', sans-serif;
   padding-top:10px;
@@ -337,7 +338,7 @@ body {
 }
 
 .text h1 {
-  color: rgb(216, 177, 97);
+  color: #D8B161;
   font-size: 16px;
   text-align: left;
   font-family: 'Open Sans', sans-serif;
@@ -349,7 +350,7 @@ body {
 }
 
 .text h2 {
-  color:#E5E5E5 ;
+  color:#FFFFFF ;
   font-size: 30px;
   font-weight: bold;
   text-align: left;
@@ -360,7 +361,7 @@ body {
 }
 
 .text p {
-  color: #E5E5E5;
+  color: #FFFFFF;
   font-size: 18px;
   text-align: left;
   font-family: 'Open Sans', sans-serif;
@@ -479,7 +480,7 @@ footer .social a:first-child {
   display: block;
   width: 25px;
   height: 2px;
-  background-color: #DBDBDF;
+  background-color: white;
   margin: 3px 0;
 }
 
