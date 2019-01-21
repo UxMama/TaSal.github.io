@@ -13,7 +13,6 @@ html, body {
   width: 100%;
 }
 
-
 /* this will make sure every element using the same font */
 /* text-decoration: none means it's remove effect like underline for the text */
 h1, h2, h3, a, button, p, div, span {
@@ -35,7 +34,7 @@ body {
 }
 
 .navbar .topnav a {
-  color: #DBDBDF;
+  color: #FFFFFF;
   margin-left: 40px;
   font-size: 1em; /*(hmm, too big? don't want it too small?)*/
   font-family: 'Open sans',sans-serif;

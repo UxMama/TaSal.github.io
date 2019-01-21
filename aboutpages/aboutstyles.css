@@ -17,7 +17,6 @@ body {
   margin: 0;
 }
 
-
 .navbar {
   display: flex; /* this will make the .navbar child become flex layout*/
   padding: 25px; /* Add padding: 25px for each side*/

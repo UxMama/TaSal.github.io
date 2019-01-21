@@ -15,19 +15,20 @@ body, h1, h2, h3, p, a, button, span, div {
 }
 
 .navbar {
-  display: flex; /* this will make the .navbar child become flex layout*/
-  padding: 25px; /* Add padding: 25px for each side*/
   align-items: center;
-  justify-content: space-between;
   background-color: #151516;
+  display: flex; /* this will make the .navbar child become flex layout*/
+  justify-content: space-between;
+  padding: 25px; /* Add padding: 25px for each side*/
+
 }
 
 .navbar .topnav a {
   color: #FFFFFF;
-  margin-left: 40px;
   font-size: 1em; /*(hmm, too big? don't want it too small?)*/
   font-family: 'Open sans',sans-serif;
   font-weight: bold;
+  margin-left: 40px;
 }
 
 .projectimage img {
@@ -35,23 +36,23 @@ body, h1, h2, h3, p, a, button, span, div {
 }
 
 .invision-btn a {
-    display: block;
-    color: black;
-    font-weight: 700;
-    text-align: center;
-    margin: 0 auto 15px auto;
-    width: 180px;
-    padding: 12px;
-    margin-top: 10vh;
-    border: 2px solid black;
+  border: 2px solid black;
+  color: black;
+  display: block;
+  font-weight: 700;
+  margin: 0 auto 15px auto;
+  margin-top: 10vh;
+  padding: 12px;
+  text-align: center;
+  width: 180px;
 }
 
 .invision-btn a:hover {
   background-color: #151516;
   color: white;
+  cursor: pointer;
    -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
-  cursor: pointer;
 }
 
 
@@ -73,15 +74,15 @@ body, h1, h2, h3, p, a, button, span, div {
 }
 
 .problem-solution h1 {
-  font-size: 34px;
-  margin-bottom: 5vh;
   color: #25272B;
+  font-size: 34px;
   font-weight: bolder;
+  margin-bottom: 5vh;
 }
 
 .problem-solution p {
-  line-height: 24px;
   color:#25272B;
+  line-height: 24px;
 }
 
 .problem {
@@ -89,20 +90,19 @@ body, h1, h2, h3, p, a, button, span, div {
 }
 
 .skills-work {
-  padding: 40px;
   color: rgb(27, 45, 55);
   display: flex;
   justify-content: flex-start;
-  width: 60%;
   margin-left: auto;
+  padding: 40px;
+  width: 60%;
 }
 
 .skills-work div {
-  width: 170px;
-  padding: 25px;
   background-color: rgb(250, 250, 250);
   margin: 0 5px;
-
+  padding: 25px;
+  width: 170px;
 }
 
 .skills-work h1 {
@@ -112,57 +112,140 @@ body, h1, h2, h3, p, a, button, span, div {
 }
 
 .skills-work p {
-  margin-bottom: 10px;
-  letter-spacing: 1.1px;
   font-weight: 600;
+  letter-spacing: 1.1px;
+  margin-bottom: 10px;
+}
+
+.finalproduct {
+  display: flex;
+  padding: 100px 15%;
+}
+
+.finalproduct > h1 {
+  color:#25272B;
+  font-size: 34px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  width: 40%
+}
+
+.finalproduct > p {
+  color:#25272B;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 20px;
+  width: 60%;
+}
+
+.finalproduct .reborn {
+  color:#25272B;
+  font-weight: 700;
+
+}
+
+.final-desktop {
+  display: block;
+  margin: 0 auto 20px auto;
+}
+
+.final-showcase {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.try-prototype {
+  display: block;
+  margin-top: 50px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+
+
+.finalproduct {
+  flex-direction: column;
+}
+
+.finalproduct > h1 {
+  color:#25272B;
+  width: 100%;
+}
+
+
+.key-features {
+  display: flex;
+  padding: 100px 15%;
+}
+
+.key-features div {
+  width: 60%;
+}
+
+
+.key-features h1 {
+  color:#25272B;
+  font-weight: 700;
+  font-size: 34px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  width: 40%;
+}
+
+.key-features p {
+  color:#25272B;
+  line-height: 22px;
+  margin-bottom: 10px;
 }
 
 .users {
-  padding: 40px;
   color: #D8B161;
   font-weight: bold;
   font-size: 35px;
   text-align: center;
+  padding: 40px;
 }
 
 .discovery-research {
-  padding: 100px 15%;
   color:#25272B;
-  font-weight: bold;
   display: flex;
+  font-weight: bold;
+  padding: 100px 15%;
 }
 
 .research-survey {
   display: flex;
+  flex-direction: column;
   margin: 0 auto;
   max-width: 1200px;
-  flex-direction: column;
   width: 60%;
 }
 
 
 .discovery-research .title {
-  text-align: left;
   color: color:#25272B;
   font-size: 34px;
   margin-bottom: 90px;
+  text-align: left;
   width: 40%;
 }
 
 .research {
-  padding: 0 40px;
   margin-bottom: 40px;
+  padding: 0 40px;
 }
 
 .research h1 {
-  font-size: 32px;
   color: color:#25272B;
+  font-size: 32px;
   margin-bottom: 15px;
 }
 
 .research p {
-  line-height: 24px;
   font-weight: 400;
+  line-height: 24px;
 }
 
 .research p .color {
@@ -175,45 +258,45 @@ body, h1, h2, h3, p, a, button, span, div {
 }
 
 .percent-n-text {
+  align-items: center;
   display: flex;
   margin-bottom: 20px;
-  align-items: center;
 }
 
 .percent-n-text .percent {
   color:#25272B;
   font-size: 30px;
-  width: 85px;
   flex-shrink: 0;
-  text-align: right;
   margin-right: 10px;
+  text-align: right;
+  width: 85px;
 }
 
 .percent-n-text .text {
-  line-height: 22px;
   font-weight: 400;
+  line-height: 22px;
 }
 
 .personas {
-  padding: 100px 15%;
   display: flex;
+  padding: 100px 15%;
 }
 
 .persona-title {
-  text-align: left;
-  font-size: 34px;
-  margin-bottom: 5vh;
   color:#25272B;
   font-weight: bolder;
+  font-size: 34px;
+  margin-bottom: 5vh;
+  text-align: left;
   width: 40%;
 }
 
 .persona-paragraph {
-  line-height: 24px;
-  font-weight: 400;
-  width: 60%;
-  margin-bottom: 60px;
   color:#25272B;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 60px;
+  width: 60%;
 }
 
 .persona-container {
@@ -223,8 +306,8 @@ body, h1, h2, h3, p, a, button, span, div {
 
 .persona {
   flex-shrink: 0;
-  width: 230px;
   margin: 30px;
+  width: 230px;
 }
 
 .persona .persona-image {
@@ -232,10 +315,9 @@ body, h1, h2, h3, p, a, button, span, div {
 }
 
 .persona-testimonial {
-  line-height: 22px;
-  color: black;
-  margin-bottom: 15px;
   color:#25272B;
+  line-height: 22px;
+  margin-bottom: 15px;
 }
 
 .persona-name {
@@ -243,46 +325,46 @@ body, h1, h2, h3, p, a, button, span, div {
 }
 
 .comp-analysis {
-  padding: 100px 15%;
   display: flex;
+  padding: 100px 15%;
 }
 
 .comp-analysis .title {
-  text-align: left;
-  font-size: 34px;
-  margin-bottom: 5vh;
   color:#25272B;
   font-weight: bolder;
+  font-size: 34px;
+  margin-bottom: 5vh;
+  text-align: left;
   width: 40%;
 }
 
 .comp-container {
   display: flex;
-  width: 60%;
   flex-direction: column;
+  width: 60%;
 }
 
 .comp-analysis .comp .comp-paragraph {
-  line-height: 24px;
-  font-weight: 400;
-  width: 600px;
-  margin-bottom: 30px;
   color:#25272B;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 30px;
+  width: 600px;
 }
 
 .comp-analysis .comp .compresults {
-  margin-bottom: 30px;
+  color:#25272B;
   font-weight: 600;
   font-size: 14px;
-  width: 600px;
-  color:#25272B;
   line-height: 24px;
+  margin-bottom: 30px;
+  width: 600px;
 }
 
 .comp-analysis .companpics {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .comp-analysis .companpics img {
@@ -290,36 +372,36 @@ body, h1, h2, h3, p, a, button, span, div {
 }
 
 .userflows-stories{
-  padding: 100px 15%;
   display: flex;
+  padding: 100px 15%;
 }
 
 .userflows-stories .title {
-  text-align: left;
-  font-size: 34px;
-  margin-bottom: 5vh;
   color:#25272B;
   font-weight: bolder;
+  font-size: 34px;
+  margin-bottom: 5vh;
+  text-align: left;
   width: 40%;
 }
 
 .userflows-container{
 display: flex;
-width: 60%;
 flex-direction: column;
+width: 60%;
 }
 
 .userflows-stories .userflows .userflows-paragraph {
-  line-height: 24px;
   font-weight: 400;
-  width: 600px;
+  line-height: 24px;
   margin-bottom: 30px;
+  width: 600px;
 }
 
 .userflows-img {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .userflows-img img:first-child {
@@ -329,29 +411,30 @@ flex-direction: column;
 }
 
 .wireframes-and-usability-tests .title {
-  text-align: left;
-  font-size: 34px;
-  margin-bottom: 5vh;
   color:#25272B;
   font-weight: bolder;
+  font-size: 34px;
+  margin-bottom: 5vh;
+  text-align: left;
   width: 40%;
 }
 .wireframes-and-usability-tests .sketching .sketching-and-wireframes-paragraph {
-  line-height: 24px;
-  font-weight: 400;
-  width: 600px;
-  margin-bottom: 30px;
   color:#25272B;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 30px;
+  width: 600px;
 }
 
 .sketching-container{
 display: flex;
-width: 60%;
 flex-direction: column;
+width: 60%;
 }
+
 .wireframes-and-usability-tests {
-  padding: 100px 15%;
-  display: flex;
+ display: flex;
+ padding: 100px 15%;
 }
 
 .sketch-img {
@@ -360,17 +443,17 @@ flex-direction: column;
 }
 
 .sketch-img img {
-   width: 50%;
-   height: 100%;
-   display: block;
+  display: block;
+  height: 100%;
+  width: 50%;
 }
 
 
 .infoarc {
-  padding: 40px;
   color: #D8B161;
   font-weight: bold;
   font-size: 35px;
+  padding: 40px;
   text-align: center;
 }
 
@@ -380,17 +463,17 @@ flex-direction: column;
 }
 
 .sketching-container .sketching > h1 {
-  text-align: left;
-  font-size: 30px;
-  margin-bottom: 5vh;
   color:#25272B;
-  font-weight: bolder
+  font-weight: bolder;
+  font-size: 30px;
+  text-align: left;
+  margin-bottom: 5vh;
 }
 
 .sketching-container .sketching > p {
-  line-height: 24px;
-  font-weight: 400;
   color:#25272B;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 .sketch-right img {
@@ -418,10 +501,11 @@ flex-direction: column;
 }
 
 .iterations .title {
-  width: 40%;
+  color:#25272B;
   font-size: 34px;
   font-weight: bolder;
-  color:#25272B;
+  width: 40%;
+
 }
 
 .iterations .iterations-container {
@@ -442,29 +526,29 @@ flex-direction: column;
 }
 
 .text > h1 {
+  color:#25272B;
   font-size: 32px;
   font-weight: bolder;
-  color:#25272B;
 }
 
 .text > p{
-  line-height: 24px;
-  font-weight: 400;
-  width: 600px;
-  margin-bottom: 20px;
   color:#25272B;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 20px;
+  width: 600px;
 }
 .usability {
-  padding: 100px 15%;
   display: flex;
+  padding: 100px 15%;
 }
 
 .usability > h1 {
-  text-align: left;
-  font-size: 34px;
-  margin-bottom: 5vh;
   color:#25272B;
   font-weight: bolder;
+  font-size: 34px;
+  margin-bottom: 5vh;
+  text-align: left;
   width: 40%;
 }
 
@@ -473,11 +557,11 @@ flex-direction: column;
 }
 
 .usability  p {
+  color:#25272B;
   line-height: 24px;
   font-weight: 400;
-  width: 400px;
   margin-bottom: 20px;
-  color:#25272B;
+  width: 600px;
 }
 
 .container-result {
@@ -486,60 +570,59 @@ flex-direction: column;
 }
 
 .usability .title {
-  margin-bottom: 20px;
-  font-size: 18px;
-  text-align: center;
   color:#25272B;
+  font-size: 18px;
+  margin-bottom: 50px;
+  text-align: center;
 }
 
 .tasks-container {
+  padding:5px;
   width: 40%;
-  padding: 50px;
 }
 
+
 .task {
-  display: flex;
   align-items: center;
+  display: flex;
   margin-bottom: 15px;
 }
 
 .tasks-container .title {
+  color:#25272B;
   font-weight: bolder;
   margin-left: 110px;
   margin-bottom: 5px;
-  color:#25272B;
 }
 
 .task .numbers {
-  font-size: 82px;
   color: rgb(245, 245, 245);
+  font-size: 82px;
   font-weight: 700;
   margin-right: 20px;
   width: 90px;
 }
 
 .task .step {
-  font-weight: 700;
   line-height: 26px;
 }
 
 .test-results {
+  padding: 5px;
   width: 60%;
-  padding: 50px;
 }
 
 .test-results .title {
+  color:#25272B;
   font-weight: bolder;
   margin-bottom: 5px;
-  color:#25272B;
 }
 
 .test-results p {
-  font-weight: bold;
-  line-height: 24px;
-  margin-bottom: 15px;
-  line-height: 26px;
   color:#25272B;
+  line-height: 24px;
+  line-height: 26px;
+  margin-bottom: 15px;
 }
 
 .visual-design {
@@ -548,17 +631,17 @@ flex-direction: column;
 }
 
 .visual-design > h1 {
+  color:#25272B;
   font-weight: bold;
   font-size: 34px;
   text-align: center;
   width: 40%
-  color:#25272B;
 }
 
 .branding > h1 {
+  color:#25272B;
   font-size: 32px;
   font-weight: bolder;
-  color:#25272B;
   margin-bottom: 15px;
 }
 
@@ -567,10 +650,10 @@ flex-direction: column;
 }
 
 .branding p {
-  line-height: 24px;
-  font-weight: 400;
-  margin-bottom: 20px;
   color:#25272B;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 20px;
 }
 
 .branding .brand {
@@ -578,26 +661,23 @@ flex-direction: column;
   font-weight: 700;
 }
 
-.branding-testimonials {
-}
-
 .branding-testimonials p {
-  font-size: 20px;
-  width: 600px;
-  padding: 60px;
   font-weight: bolder;
-  color:#D8B161
+  color:#D8B161;
+  font-size: 20px;
+  padding: 60px;
+  width: 600px;
 }
 
 .branding-row {
   display: flex;
   justify-content: center;
-  margin-bottom: 80px;
+  margin-bottom: 20px;
 }
 
 .logo {
-  padding: 100px 15%;
   display: flex;
+  padding: 100px 15%;
 }
 
 .logo-container {
@@ -605,18 +685,18 @@ flex-direction: column;
 }
 
 .logo .logo-title {
-  width: 40%;
+  color:#25272B;
   font-size: 34px;
   font-weight: bolder;
   margin-bottom: 15px;
-  color:#25272B;
+  width: 40%;
 }
 
 .logo .logo-paragraph {
-  line-height: 24px;
-  font-weight: 400;
-  margin-bottom: 20px;
   color:#25272B;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 20px;
 }
 
 .logo-container img {
@@ -626,8 +706,8 @@ flex-direction: column;
 }
 
 .colorandtype {
-  padding: 100px 15%;
   display: flex;
+  padding: 100px 15%;
 }
 
 .colorandtype-container {
@@ -637,19 +717,19 @@ flex-direction: column;
 }
 
 .colorandtype .colorandtype-title {
+  color:#25272B;
   font-size: 34px;
   font-weight: bolder;
-  color:#25272B;
+  flex-shrink: 0;
   margin-bottom: 15px;
   width: 40%;
-  flex-shrink: 0;
 }
 
 .colorandtype .colorandtype-paragraph {
-  line-height: 24px;
-  font-weight: 400;
-  margin-bottom: 20px;
   color:#25272B;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 20px;
 }
 
 .preference-test {
@@ -658,24 +738,24 @@ flex-direction: column;
 }
 
 .left-preference {
-  width: 40%;
   flex-shrink: 0;
   margin-right: 30px;
+  width: 40%;
 }
 
 .left-preference h1 {
-  font-size: 34px;
   color:#25272B;
-  margin-bottom: 15px;
   font-weight: bolder;
+  font-size: 34px;
+  margin-bottom: 15px;
 }
 
 .left-preference > p {
-  line-height: 24px;
+  color:#25272B;
   font-weight: 400;
   font-size: 14px;
+  line-height: 24px;
   margin-bottom: 20px;
-  color:#25272B;
 }
 
 .menus {
@@ -683,8 +763,8 @@ flex-direction: column;
 }
 
 .menus div {
-  width: 50%;
   margin: 0 30px 30px 0;
+  width: 50%;
 }
 
 .menu img {
@@ -692,10 +772,9 @@ flex-direction: column;
 }
 
 .menu p {
-  color: rgb(27, 45, 55);
-  text-align: center;
-  font-weight: 700;
   color:#25272B;
+  font-weight: 700;
+  text-align: center;
 }
 
 .right-preference {
@@ -704,90 +783,23 @@ flex-direction: column;
 
 .right-preference p {
   color:#25272B;;
-  text-align: left;
   font-weight: 400;
   line-height: 22px;
+  text-align: left;
 }
 
 .menu-container {
   margin-top: 20px;;
 }
 
-.finalproduct {
-  padding: 100px 15%;
-  display: flex;
-}
-
-.finalproduct > h1 {
-  font-size: 34px;
-  color:#25272B;
-  margin-bottom: 15px;
-  font-weight: bold;
-  width: 40%
-}
-
-.finalproduct > p {
-  line-height: 24px;
-  font-weight: 400;
-  font-size: 16px;
-  margin-bottom: 20px;
-  width: 60%;
-  color:#25272B;
-}
-
-.finalproduct .reborn {
-  font-weight: 700;
-  color:#25272B;
-}
-
-.final-desktop {
-  display: block;
-  margin: 0 auto 20px auto;
-}
-
-.final-showcase {
-  display: block;
-  width: 80%;
-  margin: 0 auto;
-}
-
-.try-prototype {
-  display: block;
-  text-align: center;
-  margin-top: 50px;
-  text-decoration: underline;
-}
-
-.key-features {
-  padding: 100px 15%;
-  display: flex;
-}
-
-.key-features div {
-  width: 60%;
-}
 
 .underline {
-  margin: 40px auto;
-  width: 90%;
   background-color: black;
   height: 1px;
+  margin: 40px auto;
+  width: 90%;
 }
 
-.key-features h1 {
-  color:#25272B;
-  font-weight: 700;
-  font-size: 34px;
-  margin-bottom: 30px;
-  margin-top: 10px;
-  width: 40%;
-}
-
-.key-features p {
-  line-height: 22px;
-  margin-bottom: 10px;
-  color:#25272B;
-}
 
 .phonemockups {
   padding: 100px 15%;
@@ -821,14 +833,6 @@ flex-direction: column;
   width: 100%;
 }
 
-.finalproduct {
-  flex-direction: column;
-}
-
-.finalproduct > h1 {
-  width: 100%;
-  color:#25272B;
-}
 
 .lessons{
   padding: 100px 15%;
