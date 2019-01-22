@@ -17,7 +17,6 @@ html, body {
 /* text-decoration: none means it's remove effect like underline for the text */
 h1, h2, h3, a, button, p, div, span {
   text-decoration: none;
-
 }
 
 body {
@@ -38,7 +37,6 @@ body {
   margin-left: 40px;
   font-size: 1em; /*(hmm, too big? don't want it too small?)*/
   font-family: 'Open sans',sans-serif;
-  font-weight: bold;
 }
 
 
@@ -223,6 +221,25 @@ body {
   color: #FFFFFF;
 }
 
+.me-btn a {
+  border: 1px solid white;
+  color: white;
+  font-weight: 700;
+  margin: 0 auto 15px auto;
+  margin-top: 10vh;
+  padding: 12px;
+  text-align: center;
+  width: 180px;
+  font-family: 'Open sans',sans-serif;
+}
+
+.me-btn a:hover {
+  background-color: #151516;
+  color: #D8B161;
+  cursor: pointer;
+   -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
 
 .featured-project {
   padding: 100px 15%;
@@ -377,7 +394,7 @@ body {
   color: white;
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
-  border: 2px solid white;
+  border: 1px solid white;
   margin-top: 10px;
   transition: 0.3s ease;
   flex-shrink: 0;
@@ -438,14 +455,13 @@ footer {
 }
 
 footer h1 {
-  color: #DBDBDF;
-  font-weight: bold;
+  color: white;
   margin-bottom: 10px;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open-sans',sans-serif;
 }
 
 footer p {
-  color: #DBDBDF;
+  color: white;
   font-size: 13px;
   font-family: "Open Sans", sans-serif;
 }
@@ -456,7 +472,7 @@ footer .social {
 
 footer .social a {
   display: inline-block;
-  color: #DBDBDF;
+  color: white;
   font-size: 13px;
   padding: 0 15px;
   font-family: "Open Sans", sans-serif;

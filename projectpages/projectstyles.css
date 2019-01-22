@@ -20,15 +20,13 @@ body, h1, h2, h3, p, a, button, span, div {
   display: flex; /* this will make the .navbar child become flex layout*/
   justify-content: space-between;
   padding: 25px; /* Add padding: 25px for each side*/
-
 }
 
 .navbar .topnav a {
   color: #FFFFFF;
+  margin-left: 40px;
   font-size: 1em; /*(hmm, too big? don't want it too small?)*/
   font-family: 'Open sans',sans-serif;
-  font-weight: bold;
-  margin-left: 40px;
 }
 
 .projectimage img {
@@ -127,7 +125,7 @@ body, h1, h2, h3, p, a, button, span, div {
   font-size: 34px;
   font-weight: bold;
   margin-bottom: 15px;
-  width: 40%
+  width: 40%;
 }
 
 .finalproduct > p {
@@ -898,14 +896,13 @@ footer {
 }
 
 footer h1 {
-  color: #DBDBDF;
-  font-weight: bold;
+  color: white;
   margin-bottom: 10px;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open-sans',sans-serif;
 }
 
 footer p {
-  color: #DBDBDF;
+  color: white;
   font-size: 13px;
   font-family: "Open Sans", sans-serif;
 }
@@ -916,7 +913,7 @@ footer .social {
 
 footer .social a {
   display: inline-block;
-  color: #DBDBDF;
+  color: white;
   font-size: 13px;
   padding: 0 15px;
   font-family: "Open Sans", sans-serif;

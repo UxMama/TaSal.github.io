@@ -9,7 +9,6 @@ html, body {
 /* text-decoration: none means it's remove effect like underline for the text */
 h1, h2, h3, a, button, p, div, span {
   text-decoration: none;
-
 }
 
 body {
@@ -22,7 +21,7 @@ body {
   padding: 25px; /* Add padding: 25px for each side*/
   align-items: center;
   justify-content: space-between;
-    background-color: #151516;
+  background-color: #151516;
 }
 
 .navbar .topnav a {
@@ -30,7 +29,6 @@ body {
   margin-left: 40px;
   font-size: 1em; /*(hmm, too big? don't want it too small?)*/
   font-family: 'Open sans',sans-serif;
-  font-weight: bold;
 }
 
 .wrap {
@@ -62,19 +60,15 @@ body {
   font-size: 36px;
   font-weight: bolder;
   text-align: left;
-  margin-bottom: 30px;
+  padding-top:170px;
 }
 
 .intro p {
-  font-size: 18px;
   line-height: 35px;
   color:#25272B;
+  padding-top: 60px;
 }
 
-.super {
-  display: block;
-  margin: 35px auto 0 auto;
-}
 
 .bio {
   font-family:"open sans";
@@ -150,14 +144,13 @@ footer {
 }
 
 footer h1 {
-  color: #DBDBDF;
-  font-weight: bold;
+  color: white;
   margin-bottom: 10px;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open-sans',sans-serif;
 }
 
 footer p {
-  color: #DBDBDF;
+  color: white;
   font-size: 13px;
   font-family: "Open Sans", sans-serif;
 }
@@ -168,7 +161,7 @@ footer .social {
 
 footer .social a {
   display: inline-block;
-  color: #DBDBDF;
+  color: white;
   font-size: 13px;
   padding: 0 15px;
   font-family: "Open Sans", sans-serif;
@@ -177,6 +170,7 @@ footer .social a {
 footer .social a:first-child {
   padding-left: 0;
 }
+
 .hamburger-btn {
   width: 40px;
   height: 30px;
