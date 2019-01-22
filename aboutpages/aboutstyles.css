@@ -210,14 +210,17 @@ footer .social a:first-child {
   .nav-mobile {
     display: none;
     height: calc(100vh - 102px);
+    background-color: #151516;
   }
 
   .nav-mobile a {
     display: block;
     text-align: center;
     padding: 30px 0;
-    color: rgb(119, 119, 119);
+    color: white;
     font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    background-color: #151516;
   }
 
   .hamburger-btn {

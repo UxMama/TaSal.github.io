@@ -5,6 +5,7 @@
   box-sizing: border-box;
 }
 
+
 html, body {
   width: 100%;
   scroll-behavior: smooth;
@@ -59,7 +60,7 @@ body, h1, h2, h3, p, a, button, span, div {
   width: 50px;
   height: 50px;
   background: #151516;
-  top: 120px;
+  bottom: 50px;
   right: 50px;
 
   text-decoration: none;
@@ -963,15 +964,19 @@ footer .social a:first-child {
   .nav-mobile {
     display: none;
     height: calc(100vh - 102px);
+    background-color: #151516;
   }
 
   .nav-mobile a {
     display: block;
     text-align: center;
     padding: 30px 0;
-    color: rgb(119, 119, 119);
+    color: white;
     font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    background-color: #151516;
   }
+
 
   .hamburger-btn {
     display: flex !important;
@@ -1330,6 +1335,7 @@ footer .social a:first-child {
 
   .finalproduct {
     padding: 20px;
+    flex-direction: column;
   }
 
   .finalproduct > p {
@@ -1530,6 +1536,11 @@ footer .social a:first-child {
 
   footer .social a {
     padding: 5px 15px;
+  }
+
+  .gotopbtn {
+    right: 25px;
+    bottom: 25px;
   }
 
 }
