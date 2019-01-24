@@ -1,0 +1,114 @@
+body {
+  background-color: white;
+  width: 100%
+}
+*, *:before, *:after {  box-sizing: border-box;
+}
+
+h1, h2, h3, a, button, p, div, span {
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex; /* this will make the .navbar child become flex layout*/
+  padding: 25px; /* Add padding: 25px for each side*/
+  align-items: center;
+  justify-content: space-between;
+  background-color: #151516;
+}
+
+.navbar .topnav a {
+  color: #FFFFFF;
+  margin-left: 40px;
+  font-size: 1em; /*(hmm, too big? don't want it too small?)*/
+  font-family: 'Open sans',sans-serif;
+}
+.container {
+  margin: 0px auto;
+  width: 100%;
+}
+.container > h1 {
+  margin: 30px 0;
+  font-family: sans-serif;
+  font-size: 35px;
+  letter-spacing: .2em;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 10%;
+}
+
+.preview {
+  margin: 1% 0;
+  width: 100%;
+  height: 300px;
+}
+
+.preview h1{
+  font-family: sans-serif;
+  font-size: 1em;
+  padding-top: 100%;
+  text-align: center;
+}
+
+.preview h2{
+  font-family: sans-serif;
+  font-size: 1em;
+  padding-top: 10%;
+  text-align: center;
+}
+
+.push {
+  background-image: url("images/push8.jpg");
+  width: 100%;
+  height: 200%;
+  background-size: cover;
+  background-position:left;
+}
+.hh {
+  background-image: url("images/hhpicsummary.png");
+  width: 100%;
+  background-size: cover;
+  background-position:right;
+}
+
+.pai {
+  background-image: url("images/painew.png");
+  width: 100%;
+  background-size: cover;
+  background-position:left;
+}
+
+.player {
+  background-image: url("images/blocjams.png");
+  width: 100%;
+  background-size: cover;
+  background-position:left;
+}
+
+@media (min-width: 600px) {
+ .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .preview {
+    float: right;
+    height: 200px;
+    margin: 1% 1%;
+    width: 48%;
+  }
+}
+
+@media (min-width: 900px) {
+   .container {
+      width: 70%;
+  }
+
+   .preview {
+      background-size: cover;
+      float: left;
+      height: 200px;
+      margin: 2em 1%;
+      width: 23%;
+    }
+}
