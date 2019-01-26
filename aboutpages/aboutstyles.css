@@ -57,16 +57,18 @@ body {
 
 .intro h1 {
   color: #D8B161;
-  font-size: 36px;
+  font-size: 45px;
   font-weight: bolder;
   text-align: left;
   padding-top:170px;
+  font-family: 'lora', serif;
 }
 
 .intro p {
   line-height: 35px;
   color:#25272B;
   padding-top: 60px;
+  font-size: 18px;
 }
 
 
@@ -81,10 +83,11 @@ body {
   font-weight: bolder;
   text-align: left;
   margin: 70px 0 30px 0;
+  font-family: 'lora', serif;
 }
 
 .highlight {
-  color: #D8B161;
+  color: black;
   font-weight: bold;
 }
 
@@ -144,7 +147,7 @@ footer {
 }
 
 footer h1 {
-  color: white;
+  color: #D8B161;
   margin-bottom: 10px;
   font-family: 'Open-sans',sans-serif;
 }

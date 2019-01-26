@@ -1,14 +1,28 @@
-body {
-  background-color: white;
-  width: 100%
-}
-*, *:before, *:after {  box-sizing: border-box;
+
+/* styling for index.html*/
+/* this will make every element's margin, padding reset to 0 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+/* this will make sure the html window will become 100% wide */
+html, body {
+  width: 100%;
+}
+
+/* this will make sure every element using the same font */
+/* text-decoration: none means it's remove effect like underline for the text */
 h1, h2, h3, a, button, p, div, span {
   text-decoration: none;
 }
 
+body {
+  padding: 0;
+  margin: 0;
+}
 .navbar {
   display: flex; /* this will make the .navbar child become flex layout*/
   padding: 25px; /* Add padding: 25px for each side*/
@@ -23,92 +37,43 @@ h1, h2, h3, a, button, p, div, span {
   font-size: 1em; /*(hmm, too big? don't want it too small?)*/
   font-family: 'Open sans',sans-serif;
 }
-.container {
-  margin: 0px auto;
-  width: 100%;
-}
-.container > h1 {
-  margin: 30px 0;
-  font-family: sans-serif;
-  font-size: 35px;
-  letter-spacing: .2em;
-  text-align: center;
-  text-transform: uppercase;
-  padding-top: 10%;
+
+
+
+footer {
+  padding: 25px;
+  border-top: 1px solid rgb(213, 213, 213);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:  #151516;
 }
 
-.preview {
-  margin: 1% 0;
-  width: 100%;
-  height: 300px;
+footer h1 {
+  color: #D8B161;
+  margin-bottom: 10px;
+  font-family: 'Open-sans',sans-serif;
+  font-size: 13px;
 }
 
-.preview h1{
-  font-family: sans-serif;
-  font-size: 1em;
-  padding-top: 100%;
-  text-align: center;
+footer p {
+  color: white;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
 }
 
-.preview h2{
-  font-family: sans-serif;
-  font-size: 1em;
-  padding-top: 10%;
+footer .social {
   text-align: center;
 }
 
-.push {
-  background-image: url("images/push8.jpg");
-  width: 100%;
-  height: 200%;
-  background-size: cover;
-  background-position:left;
-}
-.hh {
-  background-image: url("images/hhpicsummary.png");
-  width: 100%;
-  background-size: cover;
-  background-position:right;
+footer .social a {
+  display: inline-block;
+  color: white;
+  font-size: 13px;
+  padding: 0 15px;
+  font-family: "Open Sans", sans-serif;
 }
 
-.pai {
-  background-image: url("images/painew.png");
-  width: 100%;
-  background-size: cover;
-  background-position:left;
-}
-
-.player {
-  background-image: url("images/blocjams.png");
-  width: 100%;
-  background-size: cover;
-  background-position:left;
-}
-
-@media (min-width: 600px) {
- .container {
-    width: 80%;
-    margin: 0 auto;
-  }
-
-  .preview {
-    float: right;
-    height: 200px;
-    margin: 1% 1%;
-    width: 48%;
-  }
-}
-
-@media (min-width: 900px) {
-   .container {
-      width: 70%;
-  }
-
-   .preview {
-      background-size: cover;
-      float: left;
-      height: 200px;
-      margin: 2em 1%;
-      width: 23%;
-    }
+footer .social a:first-child {
+  padding-left: 0;
 }
