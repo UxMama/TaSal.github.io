@@ -31,6 +31,7 @@ body {
   margin-left: 40px;
   font-size: 1em; /*(hmm, too big? don't want it too small?)*/
   font-family: 'Open sans',sans-serif;
+  font-weight: bold;
 }
 
 .wrap {
@@ -56,7 +57,7 @@ body {
   justify-content: center;
   padding: 8%;
   color: white;
-  font-size: 22px;
+  font-size: 25px;
   line-height: 44px;
 }
 
@@ -174,11 +175,11 @@ footer {
   background-color:  white;
 }
 
-
 footer h1 {
   color: black;
   margin-bottom: 10px;
   font-family: 'Open-sans',sans-serif;
+  font-weight: bold;
 }
 
 footer p {
@@ -253,6 +254,7 @@ footer .social a:first-child {
     font-size: 18px;
     font-family: "Open Sans", sans-serif;
     background-color: white;
+    font-weight: bold;
   }
 
   .hamburger-btn {
