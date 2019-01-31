@@ -8,37 +8,33 @@
   <link rel="stylesheet" type="text/css" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700|Open+Sans:400,700" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <!-- Scripts -->
-  <script
-src="https://code.jquery.com/jquery-3.3.1.min.js"
-integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-crossorigin="anonymous"></script>
-<script src="script.js"></script>
+
+
 </head>
 <body>
-  <header class="navbar">
-    <a href="index.html">
-  <img src="images/logoo2.png" alt="logo">
- </a>
-    <div class="topnav desktop-only">
-      <a href="newprojects.html">PROJECTS</a>
+  <section class="intro">
+    <header class="navbar">
+      <a href="index.html">
+        <img src="images/logo3.png" alt="logo">
+      </a>
+      <div class="topnav desktop-only">
+        <a href="#">PROJECTS</a>
+        <a href="aboutpages/about.html">ABOUT</a>
+        <a href="mailto:tasha@tashasalgado.design">CONNECT</a>
+      </div>
+      <div class="hamburger-btn mobile-only">
+        <spam class="line"></spam>
+        <spam class="line"></spam>
+        <spam class="line"></spam>
+      </div>
+    </header>
+    <div class="nav-mobile">
+      <a href="#">PROJECTS</a>
       <a href="aboutpages/about.html">ABOUT</a>
-      <a href="images/newresume.pdf">RESUME</a>
       <a href="mailto:tasha@tashasalgado.design">CONNECT</a>
     </div>
-    <div class="hamburger-btn mobile-only">
-      <spam class="line"></spam>
-      <spam class="line"></spam>
-      <spam class="line"></spam>
-    </div>
-  </header>
-  <div class="nav-mobile">
-    <a href="#">PROJECTS</a>
-    <a href="aboutpages/about.html">ABOUT</a>
-    <a href="images/newresume.pdf">RESUME</a>
-    <a href="mailto:tasha@tashasalgado.design">CONNECT</a>
-  </div>
-  <section class="intro">
     <section class="rw-wrapper">
       <h1>Tasha Salgado</h1>
       <h2>User Experience Designer • Researcher<br></h2>
@@ -48,7 +44,6 @@ crossorigin="anonymous"></script>
   				<span>inspires</span>
   				<span>motivates</span>
   				<span>guides</span>
-  				<span>guides</span>
   				<span>empowers</span>
   			</div>
   			<br>
@@ -56,58 +51,79 @@ crossorigin="anonymous"></script>
   			<br>
   			<span>and pleasant experiences.</span>
 			</h2>
+      <!--
       <div class="me-btn">
         <a href="aboutpages/about.html" class="button">ABOUT ME</a>
-      </div>
+      </div> -->
     </section>
   </section>
-  <section>
-
   <section class="featured-project">
-     <div class="container">
-     <img src="images/pushnewest.png" alt="Avatar" class="image">
-     <div class="overlay">
-       <div class="text">
-       <h1>UX UI</h1>
-      <h1>Branding</h1>
-      <h1>Visual Design</h1>
-      <h2>PUSH</h2>
-      <p>A cloud storage app that encourages better organization through files,
-      folders and categories. PUSH also provides numerous security measures to
-      ensure safety and confidence while using the product.</p>
-      <a href="projectpages/project.html" class="button-link">View Case Study</a>
+    <h1>Some of the work I'm<br>most proud of.</h1>
+    <div class="each-project" data-aos="zoom-in">
+      <img src="images/hhsummary.png" alt="projectpic" class="image">
+      <h2>E-Commerce Web Design & Branding</h2>
+      <a class="project-button" href="newprojects.html">View Project</a>
     </div>
-     </div>
-     <a href="projectpages/project.html" class="button-link-mobile">View Case Study</a>
-   </div>
+    <div class="each-project" data-aos="zoom-in">
+      <img src="images/pushmac.png" alt="projectpic" class="image">
+      <h2>Cloud Storage Web & App</h2>
+      <a class="project-button" href="projectpages/project.html">View Project</a>
+    </div>
+    <div class="each-project" data-aos="zoom-in">
+      <img src="images/paisummary.jpg" alt="Avatar" class="image">
+      <h2>Website Re-Design</h2>
+      <a class="project-button" href="#">View Project</a>
+    </div>
   </section>
-   <section class="connect">
+
+  <div class="about-me">
+    <img src="images/newts.png" alt="profilepic" class="image">
+    <div class="about-me-text">
+      <h1> Hi,I'm Tasha!</h1>
+      <p>As a UX designer, I combine creative and usability viewpoints that result in real-world
+     solutions for Web and Mobile applications.</p>
+     <p>My user-centered process aids in providing a
+     compelling user experience to improve brand loyalty, customer retention and seamless experiences for users.</p>
+     <a class="about-btn" href="aboutpages/about.html">More Cool FAQs About Me</a>
+    </div>
+  </div>
 
 
-     <footer>
-       <div class="footer-name">
-         <h1>TASHA SALGADO</h1>
-         <p>UX Designer & Researcher</p>
+
+  <footer>
+     <div class="footer-name">
+       <h1>TASHA SALGADO</h1>
+       <p>UX Designer & Researcher</p>
+     </div>
+     <div>
+       <h1>SOCIAL</h1>
+       <div class="social">
+         <a href="mailto:latashasalgado@gmail.com">Email</a>
+         <a href="https://www.linkedin.com/in/tashasalgado/">LinkedIn</a>
+         <a href="https://github.com/UxMama">Github</a>
+         <a href="https://www.instagram.com/tasha_salgado/">Instagram</a>
        </div>
-       <div>
-         <h1>SOCIAL</h1>
-         <div class="social">
-           <a href="mailto:latashasalgado@gmail.com">Email</a>
-           <a href="https://www.linkedin.com/in/tashasalgado/">LinkedIn</a>
-           <a href="https://github.com/UxMama">Github</a>
-           <a href="https://www.behance.net/latashasalf4d8">Behance</a>
-           <a href="https://www.instagram.com/tasha_salgado/">Instagram</a>
-         </div>
-       </div>
-     </footer>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
+     </div>
+  </footer>
+
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132894340-1"></script>
-
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script src="script.js"></script>
  <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'UA-132894340-1');
+ </script>
+ <script>
+   AOS.init({
+     duration: 1500,
+   });
  </script>
 </body>
 </html>

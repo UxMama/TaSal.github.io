@@ -18,14 +18,14 @@ body, h1, h2, h3, p, a, button, span, div {
 
 .navbar {
   align-items: center;
-  background-color: #151516;
+  background-color:white;
   display: flex; /* this will make the .navbar child become flex layout*/
   justify-content: space-between;
   padding: 25px; /* Add padding: 25px for each side*/
 }
 
 .navbar .topnav a {
-  color: #FFFFFF;
+  color: black;
   margin-left: 40px;
   font-size: 1em; /*(hmm, too big? don't want it too small?)*/
   font-family: 'Open sans',sans-serif;
@@ -403,6 +403,10 @@ width: 60%;
   flex-direction: column;
 }
 
+.userflows-img img {
+  width: 100%;
+}
+
 .userflows-img img:first-child {
   margin-right: 10%;
   margin-bottom: 10px;
@@ -515,8 +519,13 @@ width: 60%;
   display: flex;
 }
 
-.iterations .image div {
+.iteration-content {
+  width: 45%;
   margin: 0 30px 50px 0;
+}
+
+.iteration-content img {
+  width: 100%;
 }
 
 .iterations .image div p {
@@ -893,11 +902,12 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color:  #151516;
+  background-color:  #000000;
 }
 
+
 footer h1 {
-  color: #D8B161;
+  color: #FFD89B;
   margin-bottom: 10px;
   font-family: 'Open-sans',sans-serif;
 }
@@ -1394,6 +1404,12 @@ footer .social a:first-child {
     padding: 20px;
     flex-direction: column;
   }
+
+  .iteration-content {
+    width: 100%;
+    margin: 0 0 40px 0;
+  }
+
   .iterations .title {
     width: 100%;
   }

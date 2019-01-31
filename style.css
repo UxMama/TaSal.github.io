@@ -29,29 +29,41 @@ body {
   padding: 25px; /* Add padding: 25px for each side*/
   align-items: center;
   justify-content: space-between;
-  background-color: #151516;
+  background-color: transparent;
 }
 
 .navbar .topnav a {
-  color: #FFFFFF;
+  color: #000000;
   margin-left: 40px;
   font-size: 1em; /*(hmm, too big? don't want it too small?)*/
   font-family: 'Open sans',sans-serif;
+  font-weight: bold;
 }
 
 
 .intro {
-  background-color: #151516;
-  padding: 100px 15%;
+  background-image: linear-gradient(to bottom right, #DDC596, #DDC596,#000000);
   position: relative;
+  width:100%;
+  height: 100%;
+  background: linear-gradient(45deg,#F17C58,#E94584,#24AADB,#27DBB1,#FFDC18,#FF3706);
+  background-size: 600% 100%;
+  animation: gradient 16s linear infinite;
+  animation-direction: alternate;
 }
+@keyframes gradient {
+  0% {background-position: 0%}
+  100% {background-position: 100%}
+}
+
 
 
 .rw-wrapper{
 	position: relative;
 	font-family: 'lora', serif;
-	padding: 10px;
+  padding: 100px 15%;
 }
+
 
 .rw-sentence{
 	margin: 0;
@@ -64,6 +76,7 @@ body {
 	font-weight: normal;
   line-height: 40px;
   font-size: 21px;
+  font-weight: bold;
 }
 
 .rw-words{
@@ -77,8 +90,8 @@ body {
     position: absolute;
     opacity: 0;
     overflow: hidden;
-    color: #D8B161;
-    animation: rotateWord 15s linear infinite 0s;
+    color: black;
+    animation: rotateWord 12s linear infinite 0s;
     font-weight: bold;
 }
 
@@ -86,28 +99,32 @@ body {
     -webkit-animation-delay: 3s;
     -ms-animation-delay: 3s;
     animation-delay: 3s;
-    color: #D8B161;
+    color: black;
+      font-weight: bold;
 }
 
 .rw-words-1 span:nth-child(3) {
     -webkit-animation-delay: 6s;
     -ms-animation-delay: 6s;
     animation-delay: 6s;
-    color: #D8B161;
+    color: black;
+    font-weight: bold;
 }
 
 .rw-words-1 span:nth-child(4) {
     -webkit-animation-delay: 9s;
     -ms-animation-delay: 9s;
     animation-delay: 9s;
-    color: #D8B161;
+    color: black;
+    font-weight: bold;
 }
 
 .rw-words-1 span:nth-child(5) {
     -webkit-animation-delay: 12s;
     -ms-animation-delay: 12s;
     animation-delay: 12s;
-    color: #D8B161;
+    color: black;
+    font-weight: bold;
 }
 
 @keyframes rotateWord {
@@ -144,18 +161,19 @@ body {
 }
 
 .intro h1 {
-  font-size: 60px;
+  font-size: 64px;
   font-family: 'lora', serif;
   font-style: italic;
   margin-bottom:20px;
-  color: #D8B161;
+  color: #000000;
 }
 
 .intro h2 {
-  font-size: 25px;
+  font-size: 34px;
   margin-bottom: 6vh;
   font-family: 'Open sans',sans-serif;
   color: #FFFFFF;
+
 }
 
 .me-btn a {
@@ -167,7 +185,7 @@ body {
   text-align: center;
   width: 180px;
   font-family: 'Open sans',sans-serif;
-  background-color: #D8B161;
+  background-color: #000000;
 
 }
 
@@ -177,26 +195,81 @@ body {
   transition-duration: 0.4s;
 }
 
+
 .featured-project {
   padding: 100px 15%;
 }
 
-.featured-project h1 {
-  width: 100%;
-  font-size: 28px;
-  color: #FFFFFF;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: bold;
+.focus {
+  font-size: 38px;
+  font-family: 'Lora',serif;
+  color: Black;
+  text-align: center;
+  margin: auto;
+  display: block;
+  position: relative;
+  padding-top: 100px;
+}
+.icons {
+  display: flex; /* this will make the .navbar child become flex layout*/
+  padding: 15px; /* Add padding: 25px for each side*/
+  align-items: center;
+  justify-content: space-between;
 }
 
-
-.featured-project h2 {
+.area-paragraph  {
   font-size: 20px;
-  color: #FFFFFF;
-  margin-left: 6px;
-  font-family: 'Open Sans', sans-serif;
-  padding-top:10px;
+  width: 300px;
+  text-align: left;
+  line-height: 1.2;
+}
 
+.underline {
+  background-color: black;
+  height: 1px;
+  margin: 40px auto;
+  width: 90;
+}
+
+.featured-project h1 {
+  width: 100%;
+  font-size: 38px;
+  color: black;
+  font-family: 'Lora', sans-serif;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.each-project {
+  margin-bottom: 50px;
+}
+
+.each-project:last-child {
+  margin-bottom: 0;
+}
+
+.each-project img {
+  margin-bottom: 20px;
+}
+
+.each-project h2 {
+  font-size: 28px;
+  color: black;
+  font-family: 'Lora', sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.each-project .project-button {
+  display: block;
+  margin: 0 auto;
+  padding: 15px 20px;
+  background-color: black;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  width: 200px;
 }
 
 .button-link-mobile {
@@ -212,6 +285,48 @@ body {
   display: none;
 }
 
+.about-me {
+  padding: 10%;
+  background-color: black;
+  color: white;
+  display: flex;
+}
+
+.about-me img {
+  width: 30%;
+  flex-shrink: 0;
+  align-self: center;
+  margin-right: 10%;
+}
+
+.about-me-text {
+  width: 70%;
+}
+
+.about-btn {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 22px;
+  background-color: black;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  border: 2px solid white;
+}
+
+.about-me-text h1 {
+  font-size: 44px;
+  font-family: 'lora', serif;
+  margin-bottom: 20px;
+}
+
+.about-me-text p {
+  font-family: 'lora', serif;
+  margin-bottom: 25px;
+  font-size: 22px;
+  line-height: 35px;
+}
 
 .container {
   position: relative;
@@ -351,17 +466,19 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color:  #151516;
+  background-color:  white;
 }
 
+
 footer h1 {
-  color: #D8B161;
+  color: black;
   margin-bottom: 10px;
   font-family: 'Open-sans',sans-serif;
+  font-weight: bold;
 }
 
 footer p {
-  color: white;
+  color: black;
   font-size: 13px;
   font-family: "Open Sans", sans-serif;
 }
@@ -372,7 +489,7 @@ footer .social {
 
 footer .social a {
   display: inline-block;
-  color: white;
+  color: black;
   font-size: 13px;
   padding: 0 15px;
   font-family: "Open Sans", sans-serif;
@@ -421,7 +538,7 @@ footer .social a:first-child {
   .nav-mobile {
     display: none;
     height: calc(100vh - 102px);
-    background-color: #151516;
+    background-color: transparent;
   }
 
   .nav-mobile a {
@@ -431,7 +548,7 @@ footer .social a:first-child {
     color: white;
     font-size: 18px;
     font-family: "Open Sans", sans-serif;
-    background-color: #151516;
+    background-color: transparent;
   }
 
   .intro {
@@ -468,6 +585,10 @@ footer .social a:first-child {
   .hamburger-btn {
     display: flex !important;
     cursor: pointer;
+  }
+
+  .rw-wrapper {
+    padding: 0;
   }
 
   .rw-sentence span {
@@ -532,6 +653,24 @@ footer .social a:first-child {
 
   .social {
     transform: initial;
+  }
+
+  .about-me {
+    flex-direction: column;
+  }
+
+  .about-me img {
+    width: 100%;
+    margin: 0 0 30px 0;
+  }
+
+  .about-me-text {
+    width: 100%;
+  }
+
+  .about-btn {
+    display: block;
+    width: 265px;
   }
 
   footer {
