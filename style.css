@@ -199,7 +199,7 @@ body {
 .featured-project {
   padding: 100px 15%;
 }
-
+/*
 .focus {
   font-size: 38px;
   font-family: 'Lora',serif;
@@ -211,12 +211,12 @@ body {
   padding-top: 100px;
 }
 .icons {
-  display: flex; /* this will make the .navbar child become flex layout*/
-  padding: 15px; /* Add padding: 25px for each side*/
+  display: flex; /* this will make the .navbar child become flex layout
+  padding: 15px; /* Add padding: 25px for each side
   align-items: center;
   justify-content: space-between;
 }
-
+*/
 .area-paragraph  {
   font-size: 20px;
   width: 300px;
@@ -343,7 +343,7 @@ body {
   position: relative;
   display: block;
 }
-
+/*
 .overlay {
   position: absolute;
   top: 0;
@@ -360,7 +360,7 @@ body {
 .container:hover .overlay {
   opacity: 1;
 }
-
+*/
 .text {
   padding: 6%;
   display: flex;
