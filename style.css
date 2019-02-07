@@ -1,6 +1,6 @@
-
 /* styling for index.html*/
 /* this will make every element's margin, padding reset to 0 */
+
 
 * {
   margin: 0;
@@ -626,7 +626,6 @@ footer .social a:first-child {
   .featured-project h1 {
     /* text-align: center; */
     margin: 0;
-    font-size: 10px;
   }
 
   .featured-project .underline {
@@ -698,5 +697,11 @@ footer .social a:first-child {
 
   footer .social a {
     padding: 5px 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .featured-project h1 {
+    font-size: 24px;
   }
 }
