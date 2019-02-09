@@ -96,8 +96,8 @@ body, h1, h2, h3, p, a, button, span, div {
 }
 
 .projectimage {
-  width: 75%;
-  margin: 0 auto;
+  width: 100%;
+  padding: 0 15%;
 }
 
 .projectimage img {
@@ -133,7 +133,7 @@ body, h1, h2, h3, p, a, button, span, div {
 }
 
 .problem-solution h1 {
-  color: #25272B;
+  color: black;
   font-size: 34px;
   font-weight: bolder;
   margin-bottom: 5vh;
@@ -149,7 +149,7 @@ body, h1, h2, h3, p, a, button, span, div {
 }
 
 .container-all {
-  padding: 5% 8%;
+  padding: 5% 15%;
 }
 
 .container-all > h1 {
@@ -174,12 +174,26 @@ body, h1, h2, h3, p, a, button, span, div {
 .right-side {
   padding-left: 40px;
   padding-right: 0;
+  flex-shrink: unset;
+}
+
+.right-title {
+  text-align: left;
+  width: 30.5%;
+  margin-left: auto;
 }
 
 .text {
   display: flex;
   align-items: center;
+  margin-bottom: 25px;
 }
+
+.container-text .text:last-child {
+  margin: 0;
+}
+
+
 
 .text .num {
   font-weight: bolder;
@@ -195,28 +209,31 @@ body, h1, h2, h3, p, a, button, span, div {
 }
 
 .section {
-  padding: 5% 8% 2% 8%;
+  padding: 5% 15% 2% 15%;
   display: flex;
   margin-bottom: 20px;
 }
 
 .section h1 {
-  color: #25272B;
+  color: black;
   font-size: 34px;
   font-weight: bolder;
-  width: 40%;
+  width: 30%;
   flex-shrink: 0;
   padding-right: 5%;
 }
 
 .section p {
   line-height: 24px;
+  width: 700px;
+  color:#25272B;
 }
 
 .image {
   display: block;
-  width: 75%;
-  margin: 0 auto 120px auto;
+  width: 100%;
+  padding: 0 15%;
+  margin-bottom: 120px;
 }
 
 .review {
@@ -229,6 +246,7 @@ body, h1, h2, h3, p, a, button, span, div {
   margin: 0 auto;
   line-height: 28px;
   font-style: italic;
+  color:#25272B;
 }
 
 .review p::before {
