@@ -596,6 +596,9 @@ width: 60%;
   padding: 100px 15%;
 }
 
+.wrapper{
+  align-items: center;
+}
 .usability > h1 {
   color:#25272B;
   font-weight: bolder;
