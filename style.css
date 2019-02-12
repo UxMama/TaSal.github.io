@@ -93,6 +93,7 @@ body {
     color: black;
     animation: rotateWord 12s linear infinite 0s;
     font-weight: bold;
+    font-size: 26px;
 }
 
 .rw-words-1 span:nth-child(2) {
@@ -238,6 +239,7 @@ body {
   font-family: 'Lora', sans-serif;
   text-align: center;
   margin-bottom: 40px;
+  
 }
 
 .each-project {

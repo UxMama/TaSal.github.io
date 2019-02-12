@@ -116,6 +116,14 @@ body, h1, h2, h3, p, a, button, span, div {
   width: 180px;
 }
 
+.invision-btn a:hover {
+  background-color: #151516;
+  color: white;
+  cursor: pointer;
+   -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
 .problem-solution {
   padding: 100px 15%;
 }
