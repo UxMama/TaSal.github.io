@@ -255,6 +255,8 @@ body {
 
 .each-project img {
   margin-bottom: 20px;
+  width: 85%;
+  margin-left:60px;
 }
 
 .each-project h2 {
