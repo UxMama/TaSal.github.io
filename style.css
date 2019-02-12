@@ -102,6 +102,7 @@ body {
     animation-delay: 3s;
     color: black;
       font-weight: bold;
+      font-size: 26px;
 }
 
 .rw-words-1 span:nth-child(3) {
@@ -110,6 +111,7 @@ body {
     animation-delay: 6s;
     color: black;
     font-weight: bold;
+    font-size: 26px;
 }
 
 .rw-words-1 span:nth-child(4) {
@@ -118,6 +120,7 @@ body {
     animation-delay: 9s;
     color: black;
     font-weight: bold;
+    font-size: 26px;
 }
 
 .rw-words-1 span:nth-child(5) {
@@ -126,6 +129,7 @@ body {
     animation-delay: 12s;
     color: black;
     font-weight: bold;
+    font-size: 26px;
 }
 
 @keyframes rotateWord {
@@ -239,7 +243,6 @@ body {
   font-family: 'Lora', sans-serif;
   text-align: center;
   margin-bottom: 40px;
-  
 }
 
 .each-project {
@@ -269,7 +272,6 @@ body {
   background-color: black;
   color: white;
   font-family: "Open Sans", sans-serif;
-  font-weight: bold;
   text-align: center;
   width: 200px;
 }
