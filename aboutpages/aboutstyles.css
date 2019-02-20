@@ -19,19 +19,23 @@ body {
 }
 
 .navbar {
-  display: flex; /* this will make the .navbar child become flex layout*/
-  padding: 25px; /* Add padding: 25px for each side*/
   align-items: center;
+  background-color:white;
+  display: flex; /* this will make the .navbar child become flex layout*/
   justify-content: space-between;
-  background-color: white;
+  padding: 25px; /* Add padding: 25px for each side*/
 }
 
 .navbar .topnav a {
-  color: black;
+  color: #4F4949;
   margin-left: 40px;
   font-size: 1em; /*(hmm, too big? don't want it too small?)*/
-  font-family: 'Open sans',sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: bold;
+}
+
+.nav-logo {
+  width: 70px;
 }
 
 .wrap {
@@ -57,21 +61,24 @@ body {
   justify-content: center;
   padding: 8%;
   color: white;
-  font-size: 25px;
+  font-size: 21px;
   line-height: 44px;
+font-family: 'Lato', sans-serif;
 }
 
 .intro-container .intro-text span {
   font-weight: bolder;
-  color: #DBA63B;
+  color:#E99900;
+  font-family: 'Lato', sans-serif;
 }
 
 
 .biography h2 {
-  color:#25272B;
+    color: #4F4949;
   font-size: 22px;
   text-align: left;
   font-weight: bold;
+font-family: 'Lato', sans-serif;
 }
 
 .intro {
@@ -79,23 +86,23 @@ body {
 }
 
 .intro h1 {
-  color: #25272B;
+  color: #4F4949;
   font-size: 45px;
   font-weight: bolder;
   text-align: left;
-  font-family: 'lora', serif;
+  font-family: 'Playfair Display', serif;
 }
 
 .intro p {
   line-height: 1.5em;
-  color:#25272B;
+  color: #4F4949;
   padding-top: 60px;
   font-size: 18px;
 }
 
 
 .bio {
-  font-family:"open sans";
+font-family: 'Lato', sans-serif;
   line-height: 1.5em;
   text-align: left;
   width: 100%;
@@ -105,17 +112,17 @@ body {
 }
 
 .bio h1{
-  color:#25272B;
+  color: #4F4949;
   font-size: 40px;
   font-weight: bolder;
   text-align: left;
   margin: 70px 0 30px 0;
-  font-family: 'lora', serif;
+  font-family: 'Fairplay Display', serif;
   line-height: 40px;
 }
 
 .highlight {
-  color: #25272B;
+  color:#E99900;
   font-weight: bold;
 }
 
@@ -136,7 +143,7 @@ border: 1px solid #ddd;
 .biography p {
   margin-bottom: 26px;
   line-height: 1.7em;
-  color:#25272B;
+color: #4F4949;
 }
 
 
@@ -162,7 +169,7 @@ margin: auto;
 }
 
 .connect a {
-  color: #25272B;
+  color: #4F4949;
   font-weight: bold;
 }
 
@@ -177,16 +184,16 @@ footer {
 }
 
 footer h1 {
-  color: black;
+  color: #4F4949;
   margin-bottom: 10px;
-  font-family: 'Open-sans',sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: bold;
 }
 
 footer p {
-  color: black;
+  color: #4F4949;
   font-size: 13px;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 footer .social {
@@ -195,10 +202,10 @@ footer .social {
 
 footer .social a {
   display: inline-block;
-  color: black;
+  color: #4F4949;
   font-size: 13px;
   padding: 0 15px;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 footer .social a:first-child {
@@ -251,9 +258,9 @@ footer .social a:first-child {
     display: block;
     text-align: center;
     padding: 30px 0;
-    color: black;
+    color: #4F4949;
     font-size: 18px;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Lato', sans-serif;
     background-color: white;
     font-weight: bold;
   }

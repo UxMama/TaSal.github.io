@@ -12,10 +12,9 @@ html, body {
 
 
 body, h1, h2, h3, p, a, button, span, div {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
   text-decoration: none;
 }
-
 
 .navbar {
   align-items: center;
@@ -26,11 +25,15 @@ body, h1, h2, h3, p, a, button, span, div {
 }
 
 .navbar .topnav a {
-  color: black;
+  color: #4F4949;
   margin-left: 40px;
   font-size: 1em; /*(hmm, too big? don't want it too small?)*/
-  font-family: 'Open sans',sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: bold;
+}
+
+.nav-logo {
+  width: 70px;
 }
 
 .projectimage img {
@@ -38,8 +41,8 @@ body, h1, h2, h3, p, a, button, span, div {
 }
 
 .invision-btn a {
-  border: 2px solid black;
-  color: black;
+  border: 2px solid #4F4949;
+  color: #4F4949;
   display: block;
   font-weight: 700;
   margin: 0 auto 15px auto;
@@ -50,7 +53,7 @@ body, h1, h2, h3, p, a, button, span, div {
 }
 
 .invision-btn a:hover {
-  background-color: #151516;
+  background-color: #4F4949;
   color: white;
   cursor: pointer;
    -webkit-transition-duration: 0.4s; /* Safari */
@@ -89,14 +92,14 @@ body, h1, h2, h3, p, a, button, span, div {
 }
 
 .problem-solution h1 {
-  color: #25272B;
+    color: #4F4949;
   font-size: 34px;
   font-weight: bolder;
   margin-bottom: 5vh;
 }
 
 .problem-solution p {
-  color:#25272B;
+    color: #4F4949;
   line-height: 24px;
 }
 
@@ -105,7 +108,7 @@ body, h1, h2, h3, p, a, button, span, div {
 }
 
 .skills-work {
-  color: rgb(27, 45, 55);
+    color: #4F4949;
   display: flex;
   justify-content: flex-start;
   margin-left: auto;
@@ -147,7 +150,7 @@ body, h1, h2, h3, p, a, button, span, div {
 }
 
 .finalproduct > p {
-  color:#25272B;
+  color: #4F4949;
   font-weight: 400;
   line-height: 24px;
   margin-bottom: 20px;
@@ -188,7 +191,7 @@ body, h1, h2, h3, p, a, button, span, div {
 
 
 .key-features h1 {
-  color:#25272B;
+  color: #4F4949;
   font-weight: 700;
   font-size: 34px;
   margin-bottom: 30px;
@@ -197,7 +200,7 @@ body, h1, h2, h3, p, a, button, span, div {
 }
 
 .key-features p {
-  color:#25272B;
+    color: #4F4949;
   line-height: 22px;
   margin-bottom: 10px;
 }
@@ -211,7 +214,7 @@ body, h1, h2, h3, p, a, button, span, div {
 }
 
 .discovery-research {
-  color:#25272B;
+    color: #4F4949;
   display: flex;
   font-weight: bold;
   padding: 100px 15%;
@@ -227,7 +230,7 @@ body, h1, h2, h3, p, a, button, span, div {
 
 
 .discovery-research .title {
-  color: color:#25272B;
+  color: #4F4949;
   font-size: 34px;
   margin-bottom: 90px;
   text-align: left;
@@ -240,7 +243,7 @@ body, h1, h2, h3, p, a, button, span, div {
 }
 
 .research h1 {
-  color: color:#25272B;
+    color: #4F4949;
   font-size: 32px;
   margin-bottom: 15px;
 }
@@ -251,7 +254,7 @@ body, h1, h2, h3, p, a, button, span, div {
 }
 
 .research p .color {
-  color:#25272B;
+    color: #4F4949;
   font-weight: 700;
 }
 
@@ -266,7 +269,7 @@ body, h1, h2, h3, p, a, button, span, div {
 }
 
 .percent-n-text .percent {
-  color:#25272B;
+    color: #4F4949;
   font-size: 30px;
   flex-shrink: 0;
   margin-right: 10px;
@@ -285,7 +288,7 @@ body, h1, h2, h3, p, a, button, span, div {
 }
 
 .persona-title {
-  color:#25272B;
+    color: #4F4949;
   font-weight: bolder;
   font-size: 34px;
   margin-bottom: 5vh;
@@ -294,7 +297,7 @@ body, h1, h2, h3, p, a, button, span, div {
 }
 
 .persona-paragraph {
-  color:#25272B;
+    color: #4F4949;
   font-weight: 400;
   line-height: 24px;
   margin-bottom: 60px;
@@ -317,7 +320,7 @@ body, h1, h2, h3, p, a, button, span, div {
 }
 
 .persona-testimonial {
-  color:#25272B;
+    color: #4F4949;
   line-height: 22px;
   margin-bottom: 15px;
 }
@@ -332,7 +335,7 @@ body, h1, h2, h3, p, a, button, span, div {
 }
 
 .comp-analysis .title {
-  color:#25272B;
+    color: #4F4949;
   font-weight: bolder;
   font-size: 34px;
   margin-bottom: 5vh;
@@ -347,7 +350,7 @@ body, h1, h2, h3, p, a, button, span, div {
 }
 
 .comp-analysis .comp .comp-paragraph {
-  color:#25272B;
+  color: #4F4949;
   font-weight: 400;
   line-height: 24px;
   margin-bottom: 30px;
@@ -355,7 +358,7 @@ body, h1, h2, h3, p, a, button, span, div {
 }
 
 .comp-analysis .comp .compresults {
-  color:#25272B;
+    color: #4F4949;
   font-weight: 600;
   font-size: 14px;
   line-height: 24px;
@@ -379,7 +382,7 @@ body, h1, h2, h3, p, a, button, span, div {
 }
 
 .userflows-stories .title {
-  color:#25272B;
+    color: #4F4949;
   font-weight: bolder;
   font-size: 34px;
   margin-bottom: 5vh;
@@ -417,7 +420,7 @@ width: 60%;
 }
 
 .wireframes-and-usability-tests .title {
-  color:#25272B;
+    color: #4F4949;
   font-weight: bolder;
   font-size: 34px;
   margin-bottom: 5vh;
@@ -425,7 +428,7 @@ width: 60%;
   width: 40%;
 }
 .wireframes-and-usability-tests .sketching .sketching-and-wireframes-paragraph {
-  color:#25272B;
+  color: #4F4949;
   font-weight: 400;
   line-height: 24px;
   margin-bottom: 30px;
@@ -469,7 +472,7 @@ width: 60%;
 }
 
 .sketching-container .sketching > h1 {
-  color:#25272B;
+    color: #4F4949;
   font-weight: bolder;
   font-size: 30px;
   text-align: left;
@@ -477,7 +480,7 @@ width: 60%;
 }
 
 .sketching-container .sketching > p {
-  color:#25272B;
+    color: #4F4949;
   font-weight: 400;
   line-height: 24px;
 }
@@ -507,7 +510,7 @@ width: 60%;
 }
 
 .iterations .title {
-  color:#25272B;
+    color: #4F4949;
   font-size: 34px;
   font-weight: bolder;
   width: 40%;
@@ -537,13 +540,13 @@ width: 60%;
 }
 
 .text > h1 {
-  color:#25272B;
+    color: #4F4949;
   font-size: 32px;
   font-weight: bolder;
 }
 
 .text > p{
-  color:#25272B;
+    color: #4F4949;
   font-weight: 400;
   line-height: 24px;
   margin-bottom: 20px;
@@ -555,7 +558,7 @@ width: 60%;
 }
 
 .usability > h1 {
-  color:#25272B;
+  color: #4F4949;
   font-weight: bolder;
   font-size: 34px;
   margin-bottom: 5vh;
@@ -568,7 +571,7 @@ width: 60%;
 }
 
 .usability  p {
-  color:#25272B;
+    color: #4F4949;
   line-height: 24px;
   font-weight: 400;
   margin-bottom: 20px;
@@ -581,7 +584,7 @@ width: 60%;
 }
 
 .usability .title {
-  color:#25272B;
+    color: #4F4949;
   font-size: 18px;
   margin-bottom: 50px;
   text-align: center;
@@ -600,7 +603,7 @@ width: 60%;
 }
 
 .tasks-container .title {
-  color:#25272B;
+    color: #4F4949;
   font-weight: bolder;
   margin-left: 110px;
   margin-bottom: 5px;
@@ -624,13 +627,13 @@ width: 60%;
 }
 
 .test-results .title {
-  color:#25272B;
+  color: #4F4949;
   font-weight: bolder;
   margin-bottom: 5px;
 }
 
 .test-results p {
-  color:#25272B;
+  color: #4F4949;
   line-height: 24px;
   line-height: 26px;
   margin-bottom: 15px;
@@ -642,7 +645,7 @@ width: 60%;
 }
 
 .visual-design > h1 {
-  color:#25272B;
+    color: #4F4949;
   font-weight: bold;
   font-size: 34px;
   /* text-align: center; <------- Remove This Line*/
@@ -650,7 +653,7 @@ width: 60%;
 }
 
 .branding > h1 {
-  color:#25272B;
+    color: #4F4949;
   font-size: 32px;
   font-weight: bolder;
   margin-bottom: 15px;
@@ -661,14 +664,14 @@ width: 60%;
 }
 
 .branding p {
-  color:#25272B;
+    color: #4F4949;
   font-weight: 400;
   line-height: 24px;
   margin-bottom: 20px;
 }
 
 .branding .brand {
-  color:#25272B;
+    color: #4F4949;
   font-weight: 700;
 }
 
@@ -696,7 +699,7 @@ width: 60%;
 }
 
 .logo .logo-title {
-  color:#25272B;
+    color: #4F4949;
   font-size: 34px;
   font-weight: bolder;
   margin-bottom: 15px;
@@ -704,7 +707,7 @@ width: 60%;
 }
 
 .logo .logo-paragraph {
-  color:#25272B;
+  color: #4F4949;
   font-weight: 400;
   line-height: 24px;
   margin-bottom: 20px;
@@ -728,7 +731,7 @@ width: 60%;
 }
 
 .colorandtype .colorandtype-title {
-  color:#25272B;
+  color: #4F4949;
   font-size: 34px;
   font-weight: bolder;
   flex-shrink: 0;
@@ -737,7 +740,7 @@ width: 60%;
 }
 
 .colorandtype .colorandtype-paragraph {
-  color:#25272B;
+  color: #4F4949;
   font-weight: 400;
   line-height: 24px;
   margin-bottom: 20px;
@@ -755,14 +758,14 @@ width: 60%;
 }
 
 .left-preference h1 {
-  color:#25272B;
+    color: #4F4949;
   font-weight: bolder;
   font-size: 34px;
   margin-bottom: 15px;
 }
 
 .left-preference > p {
-  color:#25272B;
+  color: #4F4949;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
@@ -783,7 +786,7 @@ width: 60%;
 }
 
 .menu p {
-  color:#25272B;
+    color: #4F4949;
   font-weight: 700;
   text-align: center;
 }
@@ -793,7 +796,7 @@ width: 60%;
 }
 
 .right-preference p {
-  color:#25272B;;
+    color: #4F4949;
   font-weight: 400;
   line-height: 22px;
   text-align: left;
@@ -854,7 +857,7 @@ width: 60%;
   text-align: left;
   font-size: 34px;
   margin-bottom: 5vh;
-  color:#25272B;
+    color: #4F4949;
   font-weight: bolder;
   width: 40%;
 }
@@ -880,7 +883,7 @@ flex-direction: column;
   text-align: left;
   font-size: 34px;
   margin-bottom: 5vh;
-  color:#25272B;
+    color: #4F4949;
   font-weight: bolder;
   width: 40%;
 }
@@ -894,7 +897,7 @@ flex-direction: column;
 .contact a {
   font-size: 25px;
   margin-bottom: 5vh;
-  color: black;
+    color: #4F4949;
   font-weight: bolder;
 }
 
@@ -910,17 +913,17 @@ footer {
 
 
 footer h1 {
-  color: black;
+  color: #4F4949;
   margin-bottom: 10px;
-  font-family: 'Open-sans',sans-serif;
+  font-family: 'Lato',sans-serif;
   font-weight: bold;
   font-size: 16px;
 }
 
 footer p {
-  color: black;
+  color: #4F4949;
   font-size: 13px;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 footer .social {
@@ -929,10 +932,10 @@ footer .social {
 
 footer .social a {
   display: inline-block;
-  color: black;
+  color: #4F4949;
   font-size: 13px;
   padding: 0 15px;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 footer .social a:first-child {
@@ -953,7 +956,7 @@ footer .social a:first-child {
   display: block;
   width: 25px;
   height: 2px;
-  background-color: black;
+  color: #4F4949;;
   margin: 3px 0;
 }
 
@@ -986,9 +989,9 @@ footer .social a:first-child {
     display: block;
     text-align: center;
     padding: 30px 0;
-    color: black;
+    color: #4F4949;
     font-size: 18px;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Lato', sans-serif;
     background-color: white;
     font-weight: bold;
   }
@@ -1011,7 +1014,7 @@ footer .social a:first-child {
     display: block;
     width: 25px;
     height: 2px;
-    background-color: black;
+    background-color:#4F4949;
     margin: 3px 0;
   }
 
