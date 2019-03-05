@@ -77,108 +77,11 @@ body {
 
 }
 
-.rw-sentence span{
-	color: #4F4949;
-	white-space: nowrap;
-	font-weight: normal;
-  line-height: 1.2em;
-  font-size: 22px;
-  font-family: 'Lato', sans-serif;
-}
-
-.rw-words{
-	display: inline;
-	text-indent: 5px;
-  font-family: 'Playfair Display',serif;
-}
-
-.rw-words-1 span {
-    position: absolute;
-    opacity: 0;
-    overflow: hidden;
-    color: #4F4949;
-    animation: rotateWord 12s linear infinite 0s;
-    font-weight: bold;
-    font-size: 22px;
-    margin-top: 7px;
-}
-
-.rw-words-1 span:nth-child(2) {
-    -webkit-animation-delay: 3s;
-    -ms-animation-delay: 3s;
-    animation-delay: 3s;
-    color: #4F4949;
-    font-weight: bold;
-    font-size: 22px;
-    margin-top: 7px;
-}
-
-.rw-words-1 span:nth-child(3) {
-    -webkit-animation-delay: 6s;
-    -ms-animation-delay: 6s;
-    animation-delay: 6s;
-    color:  #4F4949;
-    font-weight: bold;
-    font-size: 22px;
-    margin-top: 7px;
-}
-
-.rw-words-1 span:nth-child(4) {
-    -webkit-animation-delay: 9s;
-    -ms-animation-delay: 9s;
-    animation-delay: 9s;
-    color: #4F4949;
-    font-weight: bold;
-    font-size: 22px;
-    margin-top: 7px;
-}
-
-.rw-words-1 span:nth-child(5) {
-    -webkit-animation-delay: 12s;
-    -ms-animation-delay: 12s;
-    animation-delay: 12s;
-    color: #4F4949;
-    font-weight: bold;
-    font-size: 22px;
-    margin-top: 7px;
-}
 
 .middle {
   margin-bottom: 90px;
 }
 
-@keyframes rotateWord {
-  0% {
-    opacity: 0;
-  }
-
-  2% {
-      opacity: 0;
-      -webkit-transform: translateY(-30px);
-      transform: translateY(-30px);
-  }
-  5% {
-      opacity: 1;
-      -webkit-transform: translateY(0px);
-      transform: translateY(0px);
-  }
-  17% {
-      opacity: 1;
-      -webkit-transform: translateY(0px);
-      transform: translateY(0px);
-  }
-  20% {
-      opacity: 0;
-      -webkit-transform: translateY(30px);
-      transform: translateY(30px);
-  }
-  80% {
-      opacity: 0;
-  }
-  100% {
-      opacity: 0;
-  }
-}
 
 .intro h1 {
   font-size: 40px;
@@ -190,12 +93,13 @@ body {
 }
 
 .intro h2 {
-  font-size:21px;
+  font-size:20px;
   margin-bottom: 6vh;
   font-family: 'Lato', sans-serif;
   color: #4F4949;
   line-height: 1.5em;
 }
+
 
 .inspires-text {
 color:#E99900;
@@ -204,14 +108,6 @@ color:#E99900;
 .digital-text{
 color:#E99900;
 }
-
-/* .middle{
-  position: absolute;
-  top: 90%;
-  transform: translateY(-50%);
-  width:68%;
-  text-align: center;
-} */
 
 .btn{
   display: inline-block;
@@ -262,24 +158,7 @@ color:#E99900;
   }
 }
 
-/*
-.me-btn a {
-  color: white;
-  font-weight: 400;
-  margin: 0 auto 15px auto;
-  margin-top: 12vh;
-  padding: 12px 32px;
-  text-align: center;
-  width: 180px;
-  font-family: 'Open sans',sans-serif;
-  background-color: #4F4949;
 
-}
-*/
-/*
-.me-btn a:hover {
-  cursor: pointer;
-   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
 }
 */
@@ -288,24 +167,7 @@ color:#E99900;
   margin-top: 5px;
   padding: 100px 15%;
 }
-/*
-.focus {
-  font-size: 38px;
-  font-family: 'Lora',serif;
-  color: Black;
-  text-align: center;
-  margin: auto;
-  display: block;
-  position: relative;
-  padding-top: 100px;
-}
-.icons {
-  display: flex; /* this will make the .navbar child become flex layout
-  padding: 15px; /* Add padding: 25px for each side
-  align-items: center;
-  justify-content: space-between;
-}
-*/
+
 
 .each-project {
   margin-bottom: 150px; /*space between projects*/
@@ -317,30 +179,31 @@ color:#E99900;
 
 .each-project img {
   margin-bottom: 20px;
-  Width: 60%;
-Display: block;
-Margin: 0 auto 50px auto;
+  Width: 55%;
+  Display: block;
+  Margin: 0 auto 50px auto;
 }
 
 .each-project h2 {
-  font-size: 22px;
+  font-size: 20px;
   color: #4F4949;
   font-family: 'Lato', sans-serif;
+  font-weight:bold;
   text-align: center;
   margin-bottom: 20px;
   margin-top: 10px;
 }
 
-.each-project .project-button {
-  display: block;
-  margin: 0 auto;
-  padding: 15px 20px;
-  background-color: #4F4949;
-  color: white;
+.each-project h3 {
+  font-size: 19px;
+  color: #4F4949;
   font-family: 'Lato', sans-serif;
   text-align: center;
-  width: 200px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  line-height: 1.5em;
 }
+
 
 /*.button-link-mobile {
   display: none;
@@ -430,104 +293,7 @@ Margin: 0 auto 50px auto;
   opacity: 1;
 }
 */
-.text {
-  padding: 6%;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
 
-.text h1 {
-  color: #D8B161;
-  font-size: 16px;
-  text-align: left;
-  font-family: 'Open Sans', sans-serif;
-  flex-shrink: 0;
-}
-
-.text > h1 {
-  margin-bottom: 10px;
-}
-
-.text h2 {
-  color:#FFFFFF ;
-  font-size: 30px;
-  font-weight: bold;
-  text-align: left;
-  font-family: 'Open Sans', sans-serif;
-  margin-left: 0;
-  margin-bottom: 10px;
-  flex-shrink: 0;
-}
-
-.text p {
-  color: #FFFFFF;
-  font-size: 18px;
-  text-align: left;
-  font-family: 'Open Sans', sans-serif;
-  width: 50%;
-  line-height: 24px;
-  flex-grow: 1;
-  overflow-y: auto;
-}
-
-.text .button-link {
-  display: inline-block;
-  padding: 12px 32px;
-  background-color: transparent;
-  color: white;
-  font-family: "Open Sans", sans-serif;
-  font-weight: bold;
-  border: 1px solid white;
-  margin-top: 10px;
-  transition: 0.3s ease;
-  flex-shrink: 0;
-  align-self: flex-start;
-}
-
-.text .button-link:hover {
-  background-color: white;
-  color: black;
-}
-
-/* code i wrote for the fade overlay experiment */
-
-.right-side-project {
-  position: absolute;
-  height: 100%;
-  width: 35%;
-  background-color: black;
-  top: 0;
-  right: 0;
-}
-
-.project-details {
-  width: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.project-details img {
-  margin-bottom: 25px;
-}
-
-.project-details p {
-  font-size: 20px;
-  color: #1B2D37;
-  font-family: 'Open Sans', sans-serif;
-}
-
-.project-details .casestudy {
-  display: block;
-  background-color: #1B2D37;
-  padding: 15px;
-  color: white;
-  font-weight: 700;
-  margin-top: 35px;
-  font-family: 'Open Sans', sans-serif;
-}
 
 footer {
   padding: 25px;
