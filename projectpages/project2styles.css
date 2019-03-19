@@ -317,7 +317,7 @@ body, h1, h2, h3, p, a, button, span, div {
 .survey_item .survey_item_content .circle {
 	height: 140px;
 	width: 140px;
-	border:1px solid  #839438;
+	border:3px solid  #839438;
 	border-radius: 50%;
 	display: inline-block;
 	padding-top: 53px;
@@ -332,8 +332,9 @@ body, h1, h2, h3, p, a, button, span, div {
 	vertical-align: middle;
 	display: flex;
 	align-items: center;
-	font-size:16px;
+	font-size:14px;
 	font-weight:bold;
+  line-height: 1.4em;
 }
 
 .percent-n-text {
@@ -426,6 +427,7 @@ body, h1, h2, h3, p, a, button, span, div {
 }
 .bio_data strong {
 	font-weight:bold;
+  line-height: 1.4em;
 }
 
 .personas_content .title_color {
@@ -1609,7 +1611,7 @@ footer .social a:first-child {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-	  color:#999999;
+	  color:#EB9A03;
   }
 
   .hamburger-btn .line {

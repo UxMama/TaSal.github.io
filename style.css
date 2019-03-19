@@ -110,11 +110,11 @@ color:#E99900;
   display: inline-block;
   width: 40px;
   height: 40px;
-  background: #999999;
+  background:#666262;
   margin: 10px;
   border-radius: 30%;
   box-shadow: 0 5px 15px -5px #00000070;
-  color: #E99900;
+  color: #ffffff;
   overflow: hidden;
   position: relative;
 }
@@ -453,7 +453,7 @@ color:#E99900;
   .hamburger-btn {
     display: flex !important;
     cursor: pointer;
-    color:#4F4949;
+    color:#EB9A03;
   }
 
   .rw-wrapper {
