@@ -54,13 +54,13 @@ body {
 
 .intro-container .intro-text {
   width: 50%;
-  background-color: rgb(21, 21, 22);
+  background-color: #666262;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 8%;
   color: white;
-  font-size: 21px;
+  font-size: 26px;
   line-height: 44px;
   font-family: 'Lato', sans-serif;
 }
@@ -73,7 +73,7 @@ body {
 
 
 .biography h2 {
-  color: #4F4949;
+  color:#999999;
   font-size: 22px;
   text-align: left;
   font-weight: bold;
@@ -85,7 +85,7 @@ font-family: 'Lato', sans-serif;
 }
 
 .intro h1 {
-  color: #4F4949;
+  color: #999999
   font-size: 45px;
   font-weight: bolder;
   text-align: left;
@@ -111,7 +111,7 @@ font-family: 'Lato', sans-serif;
 }
 
 .bio h1{
-  color: #4F4949;
+  color: #999999;
   font-size: 40px;
   font-weight: bolder;
   text-align: left;
