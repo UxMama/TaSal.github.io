@@ -27,7 +27,6 @@ font-family: 'Lato', sans-serif;
   margin-left: 40px;
   font-size: 1em; /*(hmm, too big? don't want it too small?)*/
   font-family: 'Lato', sans-serif;
-  font-weight: bold;
 }
 
 .nav-logo {
@@ -128,7 +127,7 @@ font-family: 'Lato', sans-serif;
 }
 
 .problem-solution {
-  padding: 100px 15%;
+  padding: 25px 15%;
 }
 
 .problem-solution .problem, .problem-solution .solution {
@@ -161,7 +160,7 @@ font-family: 'Lato', sans-serif;
 }
 
 .container-all {
-  padding: 5% 15%;
+  padding: 3% 15%;
 }
 
 .container-all > h1 {
@@ -223,9 +222,8 @@ font-family: 'Lato', sans-serif;
 }
 
 .section {
-  padding: 5% 15% 2% 15%;
+  padding: 2% 15% 2% 15%;
   display: flex;
-  margin-bottom: 20px;
 }
 
 .section h1 {
@@ -247,11 +245,11 @@ font-family: 'Lato', sans-serif;
   display: block;
   width: 100%;
   padding: 0 15%;
-  margin-bottom: 120px;
+  margin-bottom: 40px;
 }
 
 .review {
-  padding: 10%;
+  padding: 5%;
 }
 
 .review p {
@@ -302,7 +300,6 @@ footer h1 {
   color: #4F4949;
   margin-bottom: 10px;
   font-family: 'Lato',sans-serif;
-  font-weight: bold;
   font-size: 16px;
 }
 
@@ -328,6 +325,120 @@ footer .social a:first-child {
   padding-left: 0;
 }
 
+.footer_area {
+	border-top:1px solid #CCCCCC;
+	padding:20px 0px;
+}
+.footer_content {
+	text-align:center;
+}
+.footer_title {
+  color:#EB9A03;
+	font-size:22px;
+	font-weight:bold;
+	padding:20px;
+  font-family: 'Playfair Display',serif;
+}
+.footer_des {
+  font-size:18px;
+	color:#999999;
+  font-family: 'Lato', sans-serif;
+}
+.footer_content .fa-envelope {
+	font-size:35px;
+	color:#999999;
+	padding:10px;
+}
+.footer_content .social a {
+  color:#999999;
+  font-size:14px;
+	padding:0px 5px;
+  font-family: 'Lato', sans-serif;
+}
+.footer_content .footer_name {
+  padding:10px;
+	color:#999999;
+  font-size:14px;
+  font-family: 'Lato', sans-serif;
+}
+.footer_content .return_top {
+	padding:40px 0px;
+}
+.footer_content .return_top a {
+	font-size:24px;
+	color:#000000;
+	font-weight:bold;
+	border-bottom:2px solid #000000;
+}
+.footer_content .health_hooch {
+	padding:20px 0px;
+}
+.footer_content .health_hooch a {
+  font-size:20px;
+  color:#999999;
+  text-decoration: underline;
+}
+.hamburger-btn {
+  width: 40px;
+  height: 30px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hamburger-btn .line {
+  display: block;
+  width: 25px;
+  height: 2px;
+  background-color:#4F4949;
+  margin: 3px 0;
+}
+
+.nav-mobile {
+  display: none;
+}
+
+/*hide on desktop show on mobile*/
+.mobile-only {
+  display: none !important;
+}
+
+
+
+.mobile-only {
+    display: block !important;
+  }
+
+  .desktop-only {
+    display: none;
+  }
+
+  .nav-mobile {
+    display: none;
+    height: calc(100vh - 102px);
+    background-color: transparent;
+  }
+
+  .nav-mobile a {
+    display: block;
+    text-align: center;
+    padding: 30px 0;
+    color: #999999;
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+    background-color: transparent;
+  }
+
+
+
+  .hamburger-btn {
+    display: flex !important;
+    cursor: pointer;
+   color:#EB9A03;
+   padding-right:40px;
+    font-family: "Lato", sans-serif;
+  }
 
 @media screen and (max-width: 1024px) {
   .mobile-only {
@@ -340,25 +451,20 @@ footer .social a:first-child {
 
   .nav-mobile {
     display: none;
-    height: calc(100vh - 89px);
-    background-color: white;
+    height: calc(100vh - 102px);
+    background-color: transparent;
   }
 
   .nav-mobile a {
     display: block;
     text-align: center;
     padding: 30px 0;
-    color: #4F4949;
+    color:#999999;
     font-size: 18px;
-    font-family: 'Lato', sans-serif;
-    background-color: white;
-    font-weight: bold;
+    font-family: "Lato", sans-serif;
+    background-color: transparent;
   }
 
-  .gotopbtn {
-    right: 25px;
-    bottom: 25px;
-  }
 
   .hamburger-btn {
     display: flex !important;
@@ -372,13 +478,14 @@ footer .social a:first-child {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    color:#999999;
   }
 
   .hamburger-btn .line {
     display: block;
     width: 25px;
     height: 2px;
-    background-color: #4F4949;
+    background-color:#4F4949;
     margin: 3px 0;
   }
 
@@ -449,6 +556,7 @@ footer .social a:first-child {
 
   .section h1 {
     width: 100%;
+	margin-bottom:10px;
   }
 
   .section p {
@@ -462,7 +570,8 @@ footer .social a:first-child {
   .review p::before {
     font-size: 5em;
     top: 0px;
-    left: -45px;
+    left: -40px;
+	padding:10px 0px;
   }
 
   .review p::after {
@@ -470,4 +579,14 @@ footer .social a:first-child {
     bottom: -50px;
     right: -25px;
   }
+
+  .right-title {
+  	width:100%;
+  }
+  .review {
+  	padding:10%;
+  }
+  .footer_area {
+	padding:0px 5px;
+}
 }

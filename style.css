@@ -1,7 +1,5 @@
 /* styling for index.html*/
 /* this will make every element's margin, padding reset to 0 */
-
-
 * {
   margin: 0;
   padding: 0;
@@ -36,8 +34,7 @@ body {
   color: #4F4949;
   margin-left: 40px;
   font-size: 1em; /*(hmm, too big? don't want it too small?)*/
-  font-family: 'Lato', sans-serif;
-  font-weight: bold;
+  font-family: 'Lato', sans-serif;*/
 }
 
 .nav-logo {
@@ -88,7 +85,7 @@ body {
   font-family: 'Playfair Display',serif;
   margin-bottom:15px;
   margin-top: 80px;
-  color:#4F4949;
+  color:#999999;
 
 }
 
@@ -96,7 +93,7 @@ body {
   font-size:20px;
   margin-bottom: 6vh;
   font-family: 'Lato', sans-serif;
-  color: #4F4949;
+  color: #999999;
   line-height: 1.5em;
 }
 
@@ -113,7 +110,7 @@ color:#E99900;
   display: inline-block;
   width: 40px;
   height: 40px;
-  background: #4F4949;
+  background: #999999;
   margin: 10px;
   border-radius: 30%;
   box-shadow: 0 5px 15px -5px #00000070;
@@ -185,9 +182,9 @@ color:#E99900;
 }
 
 .each-project h2 {
-  font-size: 20px;
-  color: #4F4949;
-  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  color: #999999;
+  font-family: 'Playfair Display',serif;
   font-weight:bold;
   text-align: center;
   margin-bottom: 20px;
@@ -196,7 +193,7 @@ color:#E99900;
 
 .each-project h3 {
   font-size: 16px;
-  color: #4F4949;
+  color:#999999;
   font-family: 'Lato', sans-serif;
   text-align: center;
   margin-bottom: 20px;
@@ -295,44 +292,44 @@ color:#E99900;
 */
 
 
-footer {
-  padding: 25px;
-  border-top: 1px solid rgb(213, 213, 213);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color:  white;
+.footer_area {
+	border-top:1px solid #CCCCCC;
+	padding:20px 0px;
 }
-
-
-footer h1 {
-  color: #4F4949;
-  margin-bottom: 10px;
-  font-family: 'Lato', sans-serif;
-  font-weight: bold;
+.footer_content {
+	text-align:center;
+	height:200px;
 }
-
-footer p {
-  color: #4F4949;
-  font-size: 13px;
+.footer_title {
+	color:#EB9A03;
+	font-size:22px;
+	font-weight:bold;
+	padding:20px;
+}
+.footer_des {
+	font-size:18px;
+	color:#999999;
   font-family: 'Lato', sans-serif;
 }
-
-footer .social {
-  text-align: center;
+.footer_content .fa-envelope {
+	font-size:35px;
+	color:#999999;
+	padding:10px;
 }
+.footer_content .social a {
+	color:#999999;
+  font-size:14px;
+	padding:0px 5px;
+  font-family: 'Lato', sans-serif;
 
-footer .social a {
-  display: inline-block;
-  color: #4F4949;
-  font-size: 13px;
-  padding: 0 15px;
+}
+.footer_content .footer_name {
+	padding:10px;
+	color:#999999;
+  font-size:14px;
   font-family: 'Lato', sans-serif;
 }
 
-footer .social a:first-child {
-  padding-left: 0;
-}
 
 .hamburger-btn {
   width: 40px;
@@ -347,7 +344,7 @@ footer .social a:first-child {
   display: block;
   width: 25px;
   height: 2px;
-    background-color:#4F4949;
+  background-color:#4F4949;
   margin: 3px 0;
 }
 
@@ -359,6 +356,42 @@ footer .social a:first-child {
 .mobile-only {
   display: none !important;
 }
+
+
+
+.mobile-only {
+    display: block !important;
+  }
+
+  .desktop-only {
+    display: none;
+  }
+
+  .nav-mobile {
+    display: none;
+    height: calc(100vh - 102px);
+    background-color: transparent;
+  }
+
+  .nav-mobile a {
+    display: block;
+    text-align: center;
+    padding: 30px 0;
+    color: #999999;
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+    background-color: transparent;
+  }
+
+
+
+  .hamburger-btn {
+    display: flex !important;
+    cursor: pointer;
+	  color:#EB9A03;
+	  padding-right:40px;
+    font-family: "Lato", sans-serif;
+  }
 
 /*mobile phone width resolution is less than 1024px.*/
 @media screen and (max-width: 1024px) {
@@ -380,11 +413,10 @@ footer .social a:first-child {
     display: block;
     text-align: center;
     padding: 30px 0;
-    color: #4F4949;
+    color:#999999;
     font-size: 18px;
     font-family: "Lato", sans-serif;
     background-color: transparent;
-    font-weight:bold;
   }
 
   .intro {
@@ -421,6 +453,7 @@ footer .social a:first-child {
   .hamburger-btn {
     display: flex !important;
     cursor: pointer;
+    color:#4F4949;
   }
 
   .rw-wrapper {
