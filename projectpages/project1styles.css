@@ -104,8 +104,7 @@ body, h1, h2, h3, p, a, button, span, div {
 
 .problem-solution h1 {
     color: #4F4949;
-  font-size: 34px;
-  font-weight: bolder;
+  font-size: 34px;;
   margin-bottom: 5vh;
 }
 
@@ -143,7 +142,6 @@ body, h1, h2, h3, p, a, button, span, div {
 }
 
 .skills-work p {
-  letter-spacing: 1.1px;
   margin-bottom: 10px;
 }
 
