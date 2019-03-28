@@ -170,8 +170,15 @@ font-family: 'Lato', sans-serif;
   color: #4F4949;
 }
 
+.container-all > p {
+  margin-bottom: 80px;
+}
 .content-container {
   display: flex;
+}
+
+.color {
+  font-weight: bold;
 }
 
 .container-text {
@@ -216,9 +223,10 @@ font-family: 'Lato', sans-serif;
 }
 
 .image-side {
-  width: 65%;
-  height: 100%;
-  flex-shrink: 0;
+  display: block;
+  width: 100%;
+  padding: 0 15%;
+  margin-bottom: 40px;
 }
 
 .section {
@@ -238,7 +246,8 @@ font-family: 'Lato', sans-serif;
 .section p {
   line-height: 24px;
   width: 700px;
-  color: #4F4949;
+  color: black;
+  margin-bottom: 80px;
 }
 
 .image {

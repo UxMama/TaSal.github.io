@@ -52,6 +52,10 @@ body, h1, h2, h3, p, a, button, span, div {
   padding: 25px;
 }
 
+.summaryhi {
+  color: #839438;
+  font-weight: bold;
+}
 .invision-btn a {
   border: 2px solid #4F4949;
   color: #4F4949;
@@ -204,7 +208,7 @@ body, h1, h2, h3, p, a, button, span, div {
 .leaf-section {
   width: 100%;
   padding: 40px 0;
-  background-color: #839438;
+  background-color: black;
   position: relative;
   margin-bottom: 30px;
 }
@@ -223,20 +227,6 @@ body, h1, h2, h3, p, a, button, span, div {
   width: 300px;
 }
 
-.key-features h1 {
-    color: #4F4949;
-  font-weight: 700;
-  font-size: 34px;
-  margin-bottom: 30px;
-  margin-top: 10px;
-  width: 40%;
-}
-
-.key-features p {
-    color: #4F4949;
-  line-height: 22px;
-  margin-bottom: 10px;
-}
 
 .users {
   color: black;
@@ -413,13 +403,13 @@ body, h1, h2, h3, p, a, button, span, div {
 }
 .content_title {
 	text-align:center;
-	font-size:30px;
+	font-size:26px;
 	font-weight:bold;
 	padding-top:35px;
 }
 .content_sub_title {
 	text-align:center;
-	font-size:30px;
+	font-size:24px;
 	padding-top:7px;
 }
 .bio_data {
@@ -437,7 +427,7 @@ body, h1, h2, h3, p, a, button, span, div {
 }
 
 .personas_content .des {
-	font-size:13px;
+	font-size:16px;
 	margin-top:8px;
 	color:#666666;
 	line-height:18px;
@@ -473,18 +463,6 @@ body, h1, h2, h3, p, a, button, span, div {
 
 .logo-p {
   width: 100%;
-}
-.users .users_img {
-	display:flex;
-	padding:10px 15%;
-}
-.users .users_img .users_img_left {
-	width:50%;
-	padding:15px;
-}
-.users .users_img .users_img_right {
-	width:50%;
-	padding:15px;
 }
 
 .typography_content {
@@ -594,7 +572,7 @@ body, h1, h2, h3, p, a, button, span, div {
 	border:none;
 }
 .analysis_des {
-	font-size:13px;
+	font-size:16px;
 	margin-top:8px;
 	color:#666666;
 	line-height:18px;
@@ -617,7 +595,7 @@ body, h1, h2, h3, p, a, button, span, div {
 }
 
 .userflows-stories .title {
-    color: #4F4949;
+  color: #4F4949;
   font-weight: bolder;
   font-size: 34px;
   margin-bottom: 5vh;
@@ -648,19 +626,13 @@ width: 60%;
   margin: 0 auto;
 }
 .userflows-img .userflows_left_img {
-	width:50%;
+	width:100%;
 }
 .userflows-img .userflows_left_img img {
-	width:100%;
-	padding:20px;
+	width:85%;
+	padding:60px;
 }
-.userflows-img .userflows_right_img {
-	width:50%;
-}
-.userflows-img .userflows_right_img img {
-	width:100%;
-	padding:20px;
-}
+
 
 .userflows-img img:last-child {
   margin-bottom: 30px;
@@ -856,7 +828,9 @@ width: 60%;
 }
 
 
-
+.colorhi {
+  font-weight: bold;
+}
 .usability .iterations-container {
   width: 60%;
 }
@@ -918,18 +892,6 @@ width: 60%;
   font-weight: bolder;
   margin-bottom: 15px;
 }
-
-
-
-
-
-
-
-
-
-.videowrapper{
-
-}
 .tasks-container {
   padding:5px;
   width: 40%;
@@ -988,7 +950,6 @@ width: 60%;
   color: #4F4949;
   font-weight: bold;
   font-size: 34px;
-  /* text-align: center; <------- Remove This Line*/
   width: 40%
 }
 
@@ -1328,11 +1289,10 @@ width: 60%;
 }
 
 
-
-
 .hooch-title {
   color: #839438;
   font-size: 55px;
+  margin-bottom: 50px;
 }
 
 .lessons{
