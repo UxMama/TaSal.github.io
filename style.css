@@ -456,6 +456,21 @@ color:#E99900;
   	padding-bottom:90px;
   	padding-top:50px;
   }
+  .each-project .project_tex .project1_btn {
+  	background:#92c364;
+	padding:8px 20px;
+	color:#FFFFFF;
+  }
+   .each-project .project_tex .project2_btn {
+  	background:#1f76d5;
+	padding:8px 20px;
+	color:#FFFFFF;
+  }
+   .each-project .project_tex .project3_btn {
+  	background:#3d3b3d;
+	padding:8px 20px;
+	color:#FFFFFF;
+  }
   .each-project .content .project_tex {
   	width:60%;
   	padding:0px 20px;
@@ -499,6 +514,7 @@ color:#E99900;
   	color:#585656;
   	font-size:18px;
   	padding-top:20px;
+	font-family:'Playfair Display';
   }
   .footer_area .footer_content .social_icon {
   	width:50%;
@@ -751,10 +767,14 @@ color:#E99900;
   .each-project .content .project_tex {
   	width:100%;
 	padding:0px;
+	margin-bottom:22px;
   }
   .each-project .content .project_img {
   	width:100%;
 	padding:0px;
+  }
+   .each-project .content .project_img1, .project_img2 {
+  	margin:auto;
   }
    .each-project .content .project_img a img {
    	margin-bottom:20px;
