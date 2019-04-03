@@ -126,18 +126,21 @@ background-position: center;
 .skills-work {
 	color: #4F4949;
 	display: flex;
-	justify-content: flex-start;
-	margin-left: auto;
+	justify-content:center;
 	padding: 20px;
 	padding-top:40px;
-	width: 60%;
+	width: 100%;
 }
 
 .skills-work div {
-  background-color: rgb(250, 250, 250);
   margin: 0 5px;
-  padding: 25px;
-  width: 170px;
+  width: 230px;
+  border-right:1px solid #666666;
+  text-align:center;
+  padding-top:10px;
+}
+.skills-work div:last-child{
+	border-right:none;
 }
 
 .skills-work h1 {
@@ -841,7 +844,7 @@ width: 60%;
 .montserrat_box   h1, .montserrat_box h2, .montserrat_box h3, .montserrat_box p, .montserrat_box a, .montserrat_box button, .montserrat_box span, .montserrat_box div, .montserrat_box td {
 	font-family:Montserrat !important;
 }
-.shareTech_box  h1, .shareTech_box h2, .shareTech_box h3, .shareTech_box p, .shareTech_box a, .shareTech_box button, .shareTech_box span, .shareTech_box div, .shareTech_box td {
+.shareTech_box  div, .shareTech_box  h1, .shareTech_box h2, .shareTech_box h3, .shareTech_box p, .shareTech_box a, .shareTech_box button, .shareTech_box span, .shareTech_box div, .shareTech_box td {
 	font-family:ShareTech !important;
 }
 .shareTech_box{
@@ -1014,7 +1017,7 @@ height:350px;
 }
 
 .lessons{
-  padding: 12px 15%;
+  padding: 12px 15% 20px 15%;
   display: flex;
 }
 
@@ -1028,10 +1031,18 @@ height:350px;
 }
 
 .learned-container{
-display: flex;
-width: 60%;
-flex-direction: column;
-padding-bottom:15px;
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  padding-bottom:15px;
+  position:relative;
+}
+.learned-container .next_project_btn{
+	position:absolute;
+	bottom:0px;
+	right:0px;
+	color:#000000;
+	font-size:18px;
 }
 
 .lessons .learn .learned-paragraph {
@@ -1066,6 +1077,7 @@ flex-direction: column;
     color: #4F4949;
   font-weight: bolder;
 }
+
 
 
 footer {
@@ -1146,59 +1158,121 @@ footer .social a:first-child {
 	padding-top:10px;
 }
 
-.footer_area {
-	border-top:1px solid #CCCCCC;
-	padding:35px 0px;
-}
-.footer_content {
-	text-align:center;
-}
-.footer_title {
-  color:#EB9A03;
-	font-size:22px;
-	font-weight:bold;
-	padding:20px;
-  font-family: 'Playfair Display',serif;
-}
-.footer_des {
-  font-size:18px;
-	color:#999999;
-  font-family: 'Lato', sans-serif;
-}
-.footer_content .fa-envelope {
-	font-size:35px;
-	color:#999999;
-	padding:10px;
-}
-.footer_content .social a {
-  color:#999999;
-  font-size:14px;
-	padding:0px 5px;
-  font-family: 'Lato', sans-serif;
-}
-.footer_content .footer_name {
-  padding:10px;
-	color:#999999;
-  font-size:14px;
-  font-family: 'Lato', sans-serif;
-}
-.footer_content .return_top {
-	padding:40px 0px;
-}
-.footer_content .return_top a {
-	font-size:24px;
-	color:#999999;
-	font-weight:bold;
-	border-bottom:2px solid #999999;
-}
-.footer_content .positive_action {
-	padding:20px 0px;
-}
-.footer_content .positive_action a {
-	font-size:20px;
-	color:#999999;
-	text-decoration: underline;
-}
+
+
+
+
+/* footer style */
+	.footer_area {
+		border-top:1px solid #CCCCCC;
+		padding:5px 0px;
+		margin-top:5px;
+	}
+	.footer_content {
+		padding:0px 25px;
+		display:flex;
+	}
+	.footer_area .footer_content .designer_name {
+		width:50%;
+		color:#585656;
+		font-size:18px;
+		padding-top:20px;
+	}
+	.footer_area .footer_content .designer_name.footer_title {
+		color:#EB9A03;
+		font-size:22px;
+		font-weight:bold;
+		padding:20px;
+	}
+	.footer_area .footer_content .social_icon {
+	width:50%;
+	float:right;
+	text-align:right;
+	}
+
+
+
+
+
+	.footer_area .footer_content .social_icon {
+		width:50%;
+		float:right;
+		text-align:right;
+	}
+
+
+	.social_icon a {
+		text-align:center;
+	}
+	.footer_content .social a {
+		color:#999999;
+	  font-size:14px;
+		padding:0px 5px;
+	  font-family: 'Lato', sans-serif;
+
+	}
+
+	.footer_content .fa_envelope {
+		font-size:18px;
+		color:#FFFFFF;
+		padding:0px;
+	}
+
+
+
+
+	.btn{
+		display: inline-block;
+		width: 36px;
+		height: 36px;
+		background:#666262;
+		margin: 10px;
+		border-radius: 60%;
+		box-shadow: 0 5px 15px -5px #00000070;
+		color: #ffffff;
+		overflow: hidden;
+		position: relative;
+	}
+	.btn i{
+		line-height: 36px;
+		font-size: 18px;
+		transition: 0.2s linear;
+	}
+	.btn:hover i{
+		transform: scale(1.3);
+		color: #f1f1f1;
+	}
+	.btn::before{
+		content: "";
+		position: absolute;
+		width: 120%;
+		height: 120%;
+		background: #E99900;
+		transform: rotate(45deg);
+		left: -110%;
+		top: 90%;
+	}
+	.btn:hover::before{
+		animation: aaa 0.7s 1;
+		top: -10%;
+		left: -10%;
+	}
+	@keyframes aaa {
+		0%{
+		left: -110%;
+		top: 90%;
+		}50%{
+		left: 10%;
+		top: -30%;
+		}100%{
+		top: -10%;
+		left: -10%;
+		}
+	}
+
+
+
+/* end footer style */
 
 
  .mobile-only {
@@ -1300,6 +1374,11 @@ footer .social a:first-child {
   .projectimage img {
   	padding:20px;
   }
+  .projectimage img {
+  	width:100%;
+	margin-left:0px;
+	margin-top:0px;
+  }
 
 
 
@@ -1343,8 +1422,7 @@ footer .social a:first-child {
 
   .skills-work {
     padding: 20px;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
     width: 100%;
   }
 
@@ -1975,9 +2053,36 @@ footer .social a:first-child {
 }
 .footer_content {
 	padding:30px 0px;
+	padding-top:15px;
+	flex-direction:column;
 }
 
+	.footer_area .footer_content .social_icon {
+		width:100%;
+		text-align:center;
+	}
+	.footer_area .footer_content .designer_name.footer_title {
+		width:100%;
+		text-align:center;
+		padding-top:12px;
+	}
+
 }
+
+@media screen and (max-width: 767px) {
+	.skills-work {
+		padding: 20px;
+		flex-direction:column;
+		width: 100%;
+	}
+
+	.skills-work div {
+	border-right:none;
+	width:100%;
+	}
+}
+
+
 @media screen and (min-width: 320px) and (max-width: 568px) {
 .final_mockup_images  {
 	margin-top:30px;
