@@ -968,23 +968,6 @@ width: 60%;
 }
 
 
-.phonemockups {
-	padding: 20px 15%;
-	display: flex;
-	background:url(../images/pushfinalmockups.png);
-	background-repeat:no-repeat;
--webkit-background-size:cover;
--moz-background-size:cover;
--o-background-size:cover;
-background-size:cover;
-background-position:center;
-height:350px;
-}
-
-.phonemockups img {
-  width: 50%;
-  height: 100%;
-}
 
 .final-mockups {
   padding: 20px 15%;
@@ -1010,6 +993,7 @@ height:350px;
 .final_mockup_images {
 	width:70%;
 	margin:auto;
+
 }
 .final_mockup_images img {
 	width:100%;
