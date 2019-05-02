@@ -38,6 +38,29 @@ body {
   width: 70px;
 }
 
+/* this is for connect button */
+.nav-mobile #connect_btn {
+	text-align:center;
+}
+#connect_btn {
+	display:none;
+}
+.nav-mobile #connect_btn a{
+	display:inline-block;
+	width: 36px;
+	height: 36px;
+	background: #666262;
+	margin: 10px;
+	border-radius: 60%;
+	box-shadow: 0 5px 15px -5px #00000070;
+	color: #ffffff;
+	overflow: hidden;
+	position: relative;
+	padding:0px;
+}
+
+/* end connect button */
+
 .wrap {
   padding: 50px 15%;
 }
